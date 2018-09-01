@@ -13,6 +13,5 @@
   <content>InformationRegister.СчетаУчетаНоменклатуры</content>
   <content>AccountingRegister.Проводки</content>
   <content>Document.РучнаяОперация</content>
-  <content>Document.КурсоваяРазница</content>
   <parentSubsystem>Subsystem.Бухгалтерия</parentSubsystem>
 </mdclass:Subsystem>
