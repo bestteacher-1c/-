@@ -349,7 +349,7 @@
   <autoOrderByCode>true</autoOrderByCode>
   <orderLength>6</orderLength>
   <attributes uuid="b0c73c6a-313e-4d96-a353-7871a143e05c">
-    <name>ЭтоГруппа</name>
+    <name>НеИспользоватьВПроводках</name>
     <synonym>
       <key>ru</key>
       <value>Не использовать в проводках (счет группа)</value>
@@ -413,8 +413,8 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </accountingFlags>
-  <extDimensionAccountingFlags uuid="07af020b-edaf-4b47-8339-350519b7f48e">
-    <name>Суммовой</name>
+  <extDimensionAccountingFlags uuid="65aa719b-638c-42b7-a495-21b484e313d9">
+    <name>_Суммовой</name>
     <synonym>
       <key>ru</key>
       <value>Суммовой</value>

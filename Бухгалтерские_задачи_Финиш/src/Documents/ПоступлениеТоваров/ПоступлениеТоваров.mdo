@@ -254,7 +254,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <choiceParameters>
-        <name>Отбор.ЭтоГруппа</name>
+        <name>Отбор.НеИспользоватьВПроводках</name>
         <value xsi:type="core:BooleanValue"/>
       </choiceParameters>
       <dataHistory>Use</dataHistory>

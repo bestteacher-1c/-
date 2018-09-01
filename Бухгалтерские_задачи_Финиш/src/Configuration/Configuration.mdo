@@ -53,7 +53,7 @@
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.СерверныйСВызовом</commonModules>
-  <commonModules>CommonModule.Серверный</commonModules>
+  <commonModules>CommonModule.Бухгалтерия</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <eventSubscriptions>EventSubscription.ПроверкаЗаполненияПодразделения</eventSubscriptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
@@ -69,6 +69,7 @@
   <constants>Constant.ВалютаМСФО</constants>
   <constants>Constant.УчетДДС</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <commonForms>CommonForm.ИнтерфейсНачальнойСтраницы_</commonForms>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>

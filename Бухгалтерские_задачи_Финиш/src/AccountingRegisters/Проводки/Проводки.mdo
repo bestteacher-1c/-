@@ -191,7 +191,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <balance>true</balance>
-    <extDimensionAccountingFlag>ChartOfAccounts.Счета.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlag>
+    <extDimensionAccountingFlag>ChartOfAccounts.Счета.ExtDimensionAccountingFlag._Суммовой</extDimensionAccountingFlag>
   </resources>
   <resources uuid="da6625ec-4c09-49cb-b9fd-8198c1dda631">
     <name>Количество</name>

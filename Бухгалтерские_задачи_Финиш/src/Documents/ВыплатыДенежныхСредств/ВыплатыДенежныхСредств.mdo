@@ -138,26 +138,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9b646e7f-1635-4579-9bc7-df742d53b900">
-    <name>Валюта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Валюта</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.Валюты</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Catalog.Валюты.EmptyRef</value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="3ac79402-cd24-4b6a-add2-069c1fd197d3">
     <name>КорСчет</name>
     <synonym>
@@ -172,7 +152,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameters>
-      <name>Отбор.ЭтоГруппа</name>
+      <name>Отбор.НеИспользоватьВПроводках</name>
       <value xsi:type="core:BooleanValue"/>
     </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -210,6 +190,26 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b646e7f-1635-4579-9bc7-df742d53b900">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Валюты.EmptyRef</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

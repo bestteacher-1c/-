@@ -266,7 +266,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <choiceParameters>
-        <name>Отбор.ЭтоГруппа</name>
+        <name>Отбор.НеИспользоватьВПроводках</name>
         <value xsi:type="core:BooleanValue"/>
       </choiceParameters>
       <dataHistory>Use</dataHistory>

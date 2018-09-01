@@ -138,26 +138,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="228bd7cb-ab8d-4bf7-9858-8b91a2e6fe72">
-    <name>Валюта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Валюта</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.Валюты</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Catalog.Валюты.EmptyRef</value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="c8d8f269-1185-4741-b4f9-fa698dca2282">
     <name>КорСчет</name>
     <synonym>
@@ -172,7 +152,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameters>
-      <name>Отбор.ЭтоГруппа</name>
+      <name>Отбор.НеИспользоватьВПроводках</name>
       <value xsi:type="core:BooleanValue"/>
     </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -192,10 +172,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <linkByType>
-      <linkItem>1</linkItem>
-      <field>Document.ПолучениеДенежныхСредств.Attribute.КорСчет</field>
-    </linkByType>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -213,11 +189,27 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <linkByType>
-      <linkItem>2</linkItem>
-      <field>Document.ПолучениеДенежныхСредств.Attribute.КорСчет</field>
-    </linkByType>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="228bd7cb-ab8d-4bf7-9858-8b91a2e6fe72">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Валюты.EmptyRef</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

@@ -199,6 +199,10 @@
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.ДополнительныйРеквизит</field>
+      </choiceParameterLinks>
       <linkByType>
         <field>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.ДополнительныйРеквизит</field>
       </linkByType>
