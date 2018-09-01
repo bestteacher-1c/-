@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="815cda47-9f10-4fdd-8a13-55725356e359">
+  <producedTypes>
+    <selectionType typeId="dc721c91-ae9b-4406-ba0c-c07939007c20" valueTypeId="b59580cb-2902-43e6-abc3-a271a3ba74b9"/>
+    <listType typeId="6f6f9476-ae8c-460d-8414-61b232311043" valueTypeId="3059c3f3-4044-49b0-9368-7618aca44c1a"/>
+    <managerType typeId="21e0b461-ae61-4c5e-af80-e7974ce9d2a3" valueTypeId="10c375ae-4285-4f15-9b13-8eaad08985eb"/>
+    <recordSetType typeId="cbb0aa8b-b279-45a5-9547-0ab6b6284a10" valueTypeId="52e682b6-03a4-4fd4-a743-155828d3ef85"/>
+    <recordKeyType typeId="2b3ef078-1d29-4715-a7d2-7e72c8db60bd" valueTypeId="c2f213c3-47c6-4170-8013-fee516cc5e23"/>
+    <recordType typeId="c64d409b-c5b3-480f-b217-eb87fd4a702e" valueTypeId="addb43f5-1f1a-4bbf-9630-b1ae8f070e51"/>
+    <recordManagerType typeId="928aa4c0-d402-4f9f-8686-c7a910f4f979" valueTypeId="921c5420-b95c-4b1b-9931-f6319a571c5c"/>
+  </producedTypes>
+  <name>СчетаУчетаНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счета учета номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="477d78bc-99a9-413d-a9af-8d749873b6e4">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfAccountsRef.Счета</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a392ba07-93eb-4e00-8ea6-9a8f6d020bed">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="242fca64-91eb-43b6-aa25-85f2d0955e95">
+    <name>ГруппаФинансовогоУчетаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа финансового учета номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыФининсовогоУчетаНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

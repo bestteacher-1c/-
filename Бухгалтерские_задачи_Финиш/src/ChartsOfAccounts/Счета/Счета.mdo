@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8297798c-ddf2-46eb-8239-02caf7bc1550">
+  <producedTypes>
+    <objectType typeId="fece13b7-9679-49bc-b41a-47fb7199cb8e" valueTypeId="8a642270-4faf-499a-85bb-0f2eaf393db5"/>
+    <refType typeId="d945043c-bc51-479d-886e-1995e6afbdf0" valueTypeId="527b443d-5da9-4873-8a81-29b6c4936089"/>
+    <selectionType typeId="8a5db57f-36e2-4083-ac51-0723cdd9488a" valueTypeId="5ce0b330-871e-4d5c-aef8-bf510d730ce3"/>
+    <listType typeId="3b734997-c067-4c78-96ee-403b2b5378e8" valueTypeId="659c17d4-38f6-4856-b35a-8c67d1257a50"/>
+    <managerType typeId="0753a6a8-7631-452b-8f3b-4e96564582db" valueTypeId="d1d63d1b-c996-4b8f-a83c-957835b98308"/>
+    <extDimensionTypes typeId="7854b0c5-fda6-4f95-b408-6c86be6d66a8" valueTypeId="d01e27b1-3359-41d7-b7ff-3583dcd8799b"/>
+    <extDimensionTypesRow typeId="ba60afab-4ec7-4238-9012-ab8943aacdbe" valueTypeId="454690df-863e-4da4-b9a7-28666fc1a3ba"/>
+  </producedTypes>
+  <name>Счета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерские счета</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.Счета.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.Счета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>OffBalance</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask>@@@.@@</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfAccounts.Счета.EmptyRef</value>
+    </fillValue>
+    <choiceParameters>
+      <name>Отбор.ЭтоГруппа</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>2</maxExtDimensionCount>
+  <codeMask>@@@.@@</codeMask>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <standardTabularSections>
+    <name>ExtDimensionTypes</name>
+    <synonym>
+      <key></key>
+      <value>Виды субконто</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>TurnoversOnly</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>ExtDimensionType</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <predefined>
+    <items id="0549bfa7-9ae0-4657-a6b0-574e984dc41d">
+      <name>Материалы</name>
+      <description>Материалы</description>
+      <code>10</code>
+      <order> 10</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.Количественный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="84e45d19-b451-4486-a70c-2e25c146e63e">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>41</code>
+      <order> 41</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.Количественный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+      </extDimensionTypes>
+      <childItems id="428e2db5-4d89-43f7-bb02-0e7a898c819c">
+        <name>ТоварыОпт</name>
+        <description>Товары опт</description>
+        <code>41.1</code>
+        <order> 41. 1</order>
+        <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+        <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.Количественный</accountingFlags>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+        </extDimensionTypes>
+      </childItems>
+      <childItems id="aa1a0bc6-00b2-4858-adfe-15fbff2859b2">
+        <name>ТоварыРозница</name>
+        <description>Товары розница</description>
+        <code>41.2</code>
+        <order> 41. 2</order>
+        <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+        <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.Количественный</accountingFlags>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+        </extDimensionTypes>
+      </childItems>
+    </items>
+    <items id="b13329e7-ca5b-4dca-b5a8-c517f8463b91">
+      <name>Касса</name>
+      <description>Касса</description>
+      <code>50</code>
+      <order> 50</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+    </items>
+    <items id="53c63086-0bfc-4a5e-9946-608dada376f6">
+      <name>СчетВБанке</name>
+      <description>Счет в банке</description>
+      <code>51</code>
+      <order> 51</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.Валютный</accountingFlags>
+    </items>
+    <items id="b3edaac9-fb88-43a7-b133-b0c61b4402d4">
+      <name>Поставщики</name>
+      <description>Поставщики</description>
+      <code>60</code>
+      <accountType>ActivePassive</accountType>
+      <order> 60</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.Валютный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="9223ed66-6c1e-49d6-ac8c-c127b947c463">
+      <name>Покупатели</name>
+      <description>Покупатели</description>
+      <code>62</code>
+      <accountType>ActivePassive</accountType>
+      <order> 62</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+      </extDimensionTypes>
+      <childItems id="31c4ab9c-6e40-425d-a40c-7cec8742de9c">
+        <name>ПокупателямОтгрузили</name>
+        <description>Покупателям отгрузили</description>
+        <code>62.1</code>
+        <order> 62. 1</order>
+        <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+        </extDimensionTypes>
+      </childItems>
+      <childItems id="1167403b-f90c-4ce0-b707-465428cc15b2">
+        <name>АвансОтПокупателей</name>
+        <description>Аванс от покупателей</description>
+        <code>62.2</code>
+        <accountType>Passive</accountType>
+        <order> 62. 2</order>
+        <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+        </extDimensionTypes>
+      </childItems>
+    </items>
+    <items id="cafe4d46-6eef-48b1-8929-533b24b6febc">
+      <name>ЗарплатаСотрудников</name>
+      <description>Зарплата сотрудников</description>
+      <code>70</code>
+      <accountType>Passive</accountType>
+      <order> 70</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Сотрудники</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="50cf9d7b-8167-4da2-921b-1dc354fde413">
+      <name>РасчетыСУчредителями</name>
+      <description>Расчеты с учредителями</description>
+      <code>75</code>
+      <accountType>ActivePassive</accountType>
+      <order> 75</order>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="091ad478-47e3-49c6-a371-5a150ec8e0f9">
+      <name>УставныйКапитал</name>
+      <description>Уставный капитал</description>
+      <code>80</code>
+      <accountType>Passive</accountType>
+      <order> 80</order>
+    </items>
+    <items id="b69c2176-bc0a-4480-9f12-beeb36e97ce8">
+      <name>РасходыДоходы</name>
+      <description>Расходы доходы</description>
+      <code>90</code>
+      <accountType>ActivePassive</accountType>
+      <order> 90</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+    </items>
+    <items id="bc295190-fdcf-4cca-b907-d773ea75540f">
+      <name>ХранениеТоваров</name>
+      <description>Хранение товаров</description>
+      <code>001</code>
+      <offBalance>true</offBalance>
+      <order>001</order>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlags>
+      <accountingFlags>ChartOfAccounts.Счета.AccountingFlag.Количественный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+      </extDimensionTypes>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+      </extDimensionTypes>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ChartOfAccounts.Счета.Form.ФормаСписка</defaultListForm>
+  <autoOrderByCode>true</autoOrderByCode>
+  <orderLength>6</orderLength>
+  <attributes uuid="b0c73c6a-313e-4d96-a353-7871a143e05c">
+    <name>ЭтоГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать в проводках (счет группа)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <accountingFlags uuid="ad673681-692a-4e92-842d-607710059212">
+    <name>ПоПодразделениям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По подразделениям</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <accountingFlags uuid="822cbd44-9f6a-4768-b815-84e4f7b2e6e5">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <accountingFlags uuid="9c18be84-1036-4238-8ae6-2fc647786891">
+    <name>Валютный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <extDimensionAccountingFlags uuid="07af020b-edaf-4b47-8339-350519b7f48e">
+    <name>Суммовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммовой</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="0fcdbf4f-0eff-4602-95a3-16defcc1470d">
+    <name>_Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <forms uuid="34bdfef2-7a0e-4ce2-89a5-3520c7a48105">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfAccounts>

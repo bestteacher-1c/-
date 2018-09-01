@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dc75488-e58e-4e2f-8532-c0aad5cb526a">
+  <producedTypes>
+    <objectType typeId="d6af8478-605d-4050-98c1-1ede6c5ff3e1" valueTypeId="912c715d-5180-4d13-99ac-806fd8905bfd"/>
+    <refType typeId="7a008ec1-49e9-4f1c-85b0-4809b7b9e38f" valueTypeId="57988bbf-9b34-452b-ac15-e9e5bbc65436"/>
+    <selectionType typeId="70e729c8-9826-4ab4-8dbb-dc593826c947" valueTypeId="cb283ccb-56ab-432d-a720-b2f037974ad6"/>
+    <listType typeId="8ed687bc-f48b-4742-b56e-b9d51070ee03" valueTypeId="82121d05-e736-4265-9272-71521710cad0"/>
+    <managerType typeId="0f3e17e3-f3cb-44ee-877b-7fc0784667ed" valueTypeId="8acf4b17-b95e-4a9c-8eb1-98b236e5d31e"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="539f2f57-2dd8-4e55-918c-2d09c9b09b45">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb56c20f-6924-47a5-98ad-21afd85f8753">
+  <producedTypes>
+    <managerType typeId="7aa0b699-f152-42b0-aa34-29cf7604feeb" valueTypeId="2dfe8e36-2581-479a-9620-e1ea06f69416"/>
+    <valueManagerType typeId="f9786d06-77f8-49da-95fd-7252ebda8416" valueTypeId="9eee9bf0-1029-4eb7-b26b-d0f9580a2a85"/>
+  </producedTypes>
+  <name>ВалютаМСФО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта МСФО</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

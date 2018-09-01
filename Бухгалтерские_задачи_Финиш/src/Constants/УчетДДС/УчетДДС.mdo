@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2efa7332-319f-4e63-a5c8-e726a4eaea6e">
+  <producedTypes>
+    <managerType typeId="d393ed2c-b356-4856-843d-1d4dd5c416a1" valueTypeId="c872c865-29b4-4268-81f5-0a82e7dd7c82"/>
+    <valueManagerType typeId="fa9ffb39-a565-41c6-bd22-43ef93d375f8" valueTypeId="648c5604-0592-4e6e-bc2c-e7f4ad68d4ce"/>
+  </producedTypes>
+  <name>УчетДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет ДДС</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

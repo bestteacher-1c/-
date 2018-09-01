@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="beecd2b7-aec3-4868-8c64-2049e98e1b55">
+  <producedTypes>
+    <objectType typeId="6b9aa7e6-7359-45ee-af2a-4a94642d2b37" valueTypeId="a93b5e1e-ffeb-4985-b618-bbee6f25aa2a"/>
+    <refType typeId="7a03d421-b498-4e62-be98-71e2f0adf1a4" valueTypeId="ffeb0a82-448c-421c-a2ae-92332b88fd7b"/>
+    <selectionType typeId="563c3893-0719-4cab-bd5d-6182b562658b" valueTypeId="bd85ad64-a31a-47f9-a248-c46664e30ce9"/>
+    <listType typeId="2b6c8871-19aa-458e-bccf-402f7c1e4183" valueTypeId="7ab67dd8-8dc2-480d-b486-022da5b1d104"/>
+    <managerType typeId="ecfdb655-8936-4cad-9e8c-7c107fc964fa" valueTypeId="d6e9375e-4419-4cc1-bec7-b48729856a00"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Организации.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5b079a55-61bb-4706-8414-32f8b1517426">
+    <name>УчетПоПодразделениям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет по подразделениям</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="87678b18-586b-403b-aa98-5856a00113b3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

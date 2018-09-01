@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07af6411-96f1-47da-8ec2-fbd304a800e8">
+  <producedTypes>
+    <selectionType typeId="0933fa1b-0e78-4d09-b546-09e7bf49e4c6" valueTypeId="290c58ce-4d51-4bce-8919-e1f82a012416"/>
+    <listType typeId="2551c0f0-8ce7-4eca-8d8b-3a98a7d25d08" valueTypeId="3c9b0870-ecea-465b-b7c6-cde78ad4eafc"/>
+    <managerType typeId="39356dee-98fc-455a-bf80-db21d1fe5f3f" valueTypeId="e909822d-7322-4dad-94a6-377877bb4359"/>
+    <recordSetType typeId="47d9578b-c251-433e-8f95-25a31017b612" valueTypeId="7e30a69e-f465-4501-8245-ac6503d68c71"/>
+    <recordKeyType typeId="7e8f5527-a99f-43b0-afb8-df27cc39ced2" valueTypeId="fcc98132-7efe-4959-84c5-f68806376db2"/>
+    <recordType typeId="8e1db9a8-6eaa-49d2-9b42-197b91891f6a" valueTypeId="44a49e00-c1ca-42ce-a952-01c17ee8557a"/>
+    <recordManagerType typeId="dd437ff2-dbd8-4860-a268-7e9ddc0046ce" valueTypeId="f922da2e-da18-4b3e-ac8c-b7fa81915f6d"/>
+  </producedTypes>
+  <name>СчетаУчетаНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счета учета номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7aaea2a6-be48-4c02-872b-61a9bb19a636">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfAccountsRef.Счета</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bff854d9-3389-45aa-8bed-aca9b0012d16">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7a7acaea-45c6-453d-8f9d-626abbe73a66">
+    <name>ГруппаФинансовогоУчетаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа финансового учета номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыФининсовогоУчетаНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
