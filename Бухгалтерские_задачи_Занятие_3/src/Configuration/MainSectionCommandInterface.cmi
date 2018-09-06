@@ -3,15 +3,11 @@
   <commandsVisibility>
     <visibilityFragments>
       <command>DocumentJournal.Товарный.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>DocumentJournal.ДенежныеСредства.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
