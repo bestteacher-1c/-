@@ -1659,7 +1659,7 @@
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
         <items xsi:type="form:Decoration">
-          <name>ПоказатьПланВыполененияЗапроса</name>
+          <name>ПоказатьПланВыполненияЗапроса</name>
           <id>159</id>
           <title>
             <key>ru</key>
@@ -1674,7 +1674,7 @@
             <value>Открыть план выполнения запроса</value>
           </toolTip>
           <extendedTooltip>
-            <name>ПоказатьПланВыполененияЗапросаРасширеннаяПодсказка</name>
+            <name>ПоказатьПланВыполненияЗапросаРасширеннаяПодсказка</name>
             <id>161</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1689,7 +1689,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПоказатьПланВыполененияЗапросаКонтекстноеМеню</name>
+            <name>ПоказатьПланВыполненияЗапросаКонтекстноеМеню</name>
             <id>160</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1704,7 +1704,7 @@
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <handlers>
               <event>Click</event>
-              <name>ПоказатьПланВыполененияЗапросаНажатие</name>
+              <name>ПоказатьПланВыполненияЗапросаНажатие</name>
             </handlers>
             <hyperlink>true</hyperlink>
             <horizontalAlign>Left</horizontalAlign>
@@ -1881,6 +1881,36 @@
       <name>Группа5</name>
       <id>223</id>
       <items xsi:type="form:Button">
+        <name>ВыбратьЗапросыИзФайла</name>
+        <id>225</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ВыбратьЗапросыИзФайлаРасширеннаяПодсказка</name>
+          <id>226</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.ВыбратьЗапросыИзФайла</commandName>
+        <representation>Picture</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
+      <items xsi:type="form:Button">
         <name>ПараметрыСохранитьЗапросыВФайл</name>
         <id>39</id>
         <title>
@@ -1909,7 +1939,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.СохранитьЗапросыВФайл</commandName>
-        <representation>PictureAndText</representation>
+        <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <groupHorizontalAlign>Right</groupHorizontalAlign>
@@ -1944,7 +1974,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.СохранитьЗапросыВДругойФайл</commandName>
-        <representation>PictureAndText</representation>
+        <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <groupHorizontalAlign>Right</groupHorizontalAlign>

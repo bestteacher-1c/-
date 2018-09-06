@@ -12,7 +12,6 @@
     <picture>CommonPicture.Бухгалтерия</picture>
   </picture>
   <content>DataProcessor.КонсольЗапросов</content>
-  <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
   <content>CommonForm.ФормаКонстант</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>

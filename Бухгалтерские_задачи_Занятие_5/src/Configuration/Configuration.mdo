@@ -100,7 +100,6 @@
   <reports>Report.КурсовыеРазницы</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
-  <dataProcessors>DataProcessor.ПерепроведениеПоступленийТоваров</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.СчетаУчетаНоменклатуры</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыНоменклатуры</chartsOfCharacteristicTypes>

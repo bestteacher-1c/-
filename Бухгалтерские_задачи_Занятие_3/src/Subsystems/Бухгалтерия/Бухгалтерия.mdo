@@ -16,10 +16,8 @@
   <content>Report.АнализСчета</content>
   <content>Report.ЖурнальныйОрдер</content>
   <content>Report.Ведомость</content>
-  <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
   <content>Report.АнализСчета_</content>
   <content>DataProcessor.КонсольЗапросов</content>
-  <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
   <content>CommonForm.ФормаКонстант</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>

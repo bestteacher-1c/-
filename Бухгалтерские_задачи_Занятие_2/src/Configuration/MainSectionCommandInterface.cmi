@@ -9,12 +9,6 @@
       <command>DocumentJournal.ДенежныеСредства.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
