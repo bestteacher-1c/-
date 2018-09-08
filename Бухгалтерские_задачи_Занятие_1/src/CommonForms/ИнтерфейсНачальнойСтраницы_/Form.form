@@ -585,7 +585,7 @@
           </extInfo>
         </extendedTooltip>
         <type>Hyperlink</type>
-        <commandName>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</commandName>
+        <commandName>0:b0de85d3-9a64-4dc9-94d5-905e5785e6d0</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>

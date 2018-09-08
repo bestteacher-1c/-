@@ -53,7 +53,7 @@
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.СерверныйСВызовом</commonModules>
-  <commonModules>CommonModule.Серверный</commonModules>
+  <commonModules>CommonModule.Бухгалтерия</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
   <constants>Constant.ПервыйЗапуск</constants>
