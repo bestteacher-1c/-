@@ -75,7 +75,6 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ВыплатыДенежныхСредств.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3330e701-f217-4f6d-a830-0fa031c78eef">
@@ -220,14 +219,4 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="69215905-cce1-4386-8fdb-2fd13c731c26">
-    <name>ФормаДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа</value>
-    </synonym>
-    <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Document>

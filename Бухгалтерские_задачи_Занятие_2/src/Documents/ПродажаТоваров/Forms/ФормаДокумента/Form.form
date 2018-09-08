@@ -999,36 +999,6 @@
     <autoCommandBar>
       <name>ТоварыКоманднаяПанель</name>
       <id>9</id>
-      <items xsi:type="form:Button">
-        <name>ТоварыУстановитьСтандартныеЦены</name>
-        <id>22</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ТоварыУстановитьСтандартныеЦеныExtendedTooltip</name>
-          <id>34</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.УстановитьСтандартныеЦены</commandName>
-        <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1243,31 +1213,6 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
-  <formCommands>
-    <name>УстановитьСтандартныеЦены</name>
-    <title>
-      <key>ru</key>
-      <value>Установить стандартные цены</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Установить стандартные цены</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Refresh</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаУстановитьЦены</name>
-      </handler>
-    </action>
-    <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
@@ -1286,10 +1231,6 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
-    <handlers>
-      <event>BeforeWrite</event>
-      <name>ПередЗаписью</name>
-    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>
