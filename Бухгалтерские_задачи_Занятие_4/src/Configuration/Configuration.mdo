@@ -60,7 +60,6 @@
   <constants>Constant.СкладскойУчет</constants>
   <constants>Constant.ВалютаМСФО</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
-  <commonForms>CommonForm.ИнтерфейсНачальнойСтраницы_</commonForms>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>

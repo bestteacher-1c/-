@@ -69,7 +69,6 @@
   <constants>Constant.ВалютаМСФО</constants>
   <constants>Constant.УчетДДС</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
-  <commonForms>CommonForm.ИнтерфейсНачальнойСтраницы_</commonForms>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
