@@ -2,9 +2,7 @@
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e825eac-6ecc-4a08-b234-9ebec1be8559">
   <producedTypes>
     <objectType typeId="93d0e2b9-1207-463b-896e-b19a7fe1793e" valueTypeId="4d95856b-0d1d-43d6-84d9-4361a7fc7215"/>
-    <refType typeId="e2bc47a9-f54e-4312-a295-8720cfbe7df1" valueTypeId="479ac403-6d2d-4728-b3ca-e57a89eea465">
-      <emptyRef/>
-    </refType>
+    <refType typeId="e2bc47a9-f54e-4312-a295-8720cfbe7df1" valueTypeId="479ac403-6d2d-4728-b3ca-e57a89eea465"/>
     <selectionType typeId="b34cc38b-fbda-49c5-abbb-91df14701bb2" valueTypeId="17808ae8-d20f-40c8-95e4-d1f70e4bef00"/>
     <listType typeId="46ca0ebb-3a06-4c6b-aede-531776ca3f94" valueTypeId="822d475d-8437-4cae-ab1b-e6db0a19cecf"/>
     <managerType typeId="3c49aec5-c23f-4760-994e-980e4e481a9b" valueTypeId="48c87991-de9a-42ae-8368-d3d58f6cab35"/>
@@ -69,7 +67,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <basedOn>Document.ПоступлениеТоваров</basedOn>
+  <basedOn>Document.ПриобретениеТоваровИУслуг</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>

@@ -8,7 +8,7 @@
   <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ПоступлениеТоваров</content>
+  <content>Document.ПриобретениеТоваровИУслуг</content>
   <content>Document.ПродажаТоваров</content>
   <content>Document.ПеремещениеТоваров</content>
   <content>Document.ПолучениеДенежныхСредств</content>

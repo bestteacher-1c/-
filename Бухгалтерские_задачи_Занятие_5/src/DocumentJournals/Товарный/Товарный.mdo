@@ -13,7 +13,7 @@
   <comment></comment>
   <defaultForm>DocumentJournal.Товарный.Form.ФормаСписка</defaultForm>
   <useStandardCommands>true</useStandardCommands>
-  <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПриобретениеТоваровИУслуг</registeredDocuments>
   <registeredDocuments>Document.ПродажаТоваров</registeredDocuments>
   <registeredDocuments>Document.ПеремещениеТоваров</registeredDocuments>
   <columns uuid="16f4428e-2b86-403a-b45b-19ff02ebd889">
@@ -23,7 +23,7 @@
       <value>Контрагент</value>
     </synonym>
     <comment></comment>
-    <references>Document.ПоступлениеТоваров.Attribute.Контрагент</references>
+    <references>Document.ПриобретениеТоваровИУслуг.Attribute.Контрагент</references>
     <references>Document.ПродажаТоваров.Attribute.Контрагент</references>
     <references>Document.ПеремещениеТоваров.Attribute.СкладПолучатель</references>
   </columns>
@@ -34,7 +34,7 @@
       <value>Склад</value>
     </synonym>
     <comment></comment>
-    <references>Document.ПоступлениеТоваров.Attribute.Склад</references>
+    <references>Document.ПриобретениеТоваровИУслуг.Attribute.Склад</references>
     <references>Document.ПродажаТоваров.Attribute.Склад</references>
     <references>Document.ПеремещениеТоваров.Attribute.СкладОтправитель</references>
   </columns>

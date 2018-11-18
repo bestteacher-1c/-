@@ -9,6 +9,6 @@
   <location>Constant.РасчетыПоДоговорам</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Договоры</content>
-  <content>Document.ПоступлениеТоваров.Attribute.Договор</content>
+  <content>Document.ПриобретениеТоваровИУслуг.Attribute.Договор</content>
   <content>Document.ПродажаТоваров.Attribute.Договор</content>
 </mdclass:FunctionalOption>

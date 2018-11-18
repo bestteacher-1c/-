@@ -7,7 +7,7 @@
   </synonym>
   <comment></comment>
   <source>
-    <types>DocumentObject.ПоступлениеТоваров</types>
+    <types>DocumentObject.ПриобретениеТоваровИУслуг</types>
     <types>DocumentObject.ВыплатыДенежныхСредств</types>
     <types>DocumentObject.ПолучениеДенежныхСредств</types>
     <types>DocumentObject.ПродажаТоваров</types>

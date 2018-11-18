@@ -485,7 +485,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>Document.ПоступлениеТоваров.StandardCommand.OpenList</commandName>
+          <commandName>Document.ПриобретениеТоваровИУслуг.StandardCommand.OpenList</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>

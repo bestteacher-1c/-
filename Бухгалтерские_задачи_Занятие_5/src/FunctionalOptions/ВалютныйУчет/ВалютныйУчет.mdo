@@ -8,7 +8,7 @@
   <comment></comment>
   <location>Catalog.Организации.Attribute.ВалютныйУчет</location>
   <privilegedGetMode>true</privilegedGetMode>
-  <content>Document.ПоступлениеТоваров.Attribute.Валюта</content>
+  <content>Document.ПриобретениеТоваровИУслуг.Attribute.Валюта</content>
   <content>Document.ПродажаТоваров.Attribute.Валюта</content>
   <content>Document.ПолучениеДенежныхСредств.Attribute.Валюта</content>
   <content>Document.ВыплатыДенежныхСредств.Attribute.Валюта</content>

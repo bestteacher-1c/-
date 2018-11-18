@@ -27,7 +27,7 @@
     <types>CatalogRef.Сотрудники</types>
     <types>CatalogRef.Контрагенты</types>
     <types>CatalogRef.Склады</types>
-    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>

@@ -2,21 +2,19 @@
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e92ccdfe-d71f-45cb-b422-272ee810751a">
   <producedTypes>
     <objectType typeId="113b22fc-eb72-49e9-b118-fc00d0b6638e" valueTypeId="e12cd435-482f-476c-906f-a865b4692e55"/>
-    <refType typeId="ee770fac-a127-4fb2-b5ad-353c05c639a9" valueTypeId="9ca25ba0-5b3a-4ca2-876d-d218541bc130">
-      <emptyRef/>
-    </refType>
+    <refType typeId="ee770fac-a127-4fb2-b5ad-353c05c639a9" valueTypeId="9ca25ba0-5b3a-4ca2-876d-d218541bc130"/>
     <selectionType typeId="ea65e841-4e18-421f-945a-9d2198f658b1" valueTypeId="239f3493-ad98-48fd-9a2b-5b8229bc44a3"/>
     <listType typeId="f7c02028-3a18-434c-a385-deb9c679f413" valueTypeId="33ff6ce7-2227-48e5-9443-c23e60542f91"/>
     <managerType typeId="29ab5a30-9504-47b1-905d-a55bd2fa26ca" valueTypeId="876ec91a-3725-4526-baa9-e245308811c1"/>
   </producedTypes>
-  <name>ПоступлениеТоваров</name>
+  <name>ПриобретениеТоваровИУслуг</name>
   <synonym>
     <key>ru</key>
     <value>Поступление товаров (ТМЦ)</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПоступлениеТоваров.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ПриобретениеТоваровИУслуг.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -31,7 +29,7 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПоступлениеТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.ПриобретениеТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccountingRegister.Проводки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -107,7 +105,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
       <name>Отбор.Владелец</name>
-      <field>Document.ПоступлениеТоваров.Attribute.Контрагент</field>
+      <field>Document.ПриобретениеТоваровИУслуг.Attribute.Контрагент</field>
     </choiceParameterLinks>
     <choiceParameterLinks>
       <name>Отбор.Организация</name>
@@ -117,7 +115,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7c2e5508-1ca7-49c3-aa5b-c643c3b8b3e2">
+  <attributes uuid="64c0d88c-f010-4b9a-8399-608823cbdd9b">
     <name>Валюта</name>
     <synonym>
       <key>ru</key>

@@ -9,7 +9,7 @@
   <location>Constant.СкладскойУчет</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Склады</content>
-  <content>Document.ПоступлениеТоваров.Attribute.Склад</content>
+  <content>Document.ПриобретениеТоваровИУслуг.Attribute.Склад</content>
   <content>Document.ПродажаТоваров.Attribute.Склад</content>
   <content>Document.ПеремещениеТоваров.Attribute.СкладОтправитель</content>
   <content>Document.ПеремещениеТоваров.Attribute.СкладПолучатель</content>

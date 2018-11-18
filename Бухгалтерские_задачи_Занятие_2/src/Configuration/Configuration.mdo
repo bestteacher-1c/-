@@ -67,7 +67,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ДополнительныеЗначения</catalogs>
   <catalogs>Catalog.ГруппыФининсовогоУчетаНоменклатуры</catalogs>
-  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПриобретениеТоваровИУслуг</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.ПеремещениеТоваров</documents>
   <documents>Document.ПолучениеДенежныхСредств</documents>

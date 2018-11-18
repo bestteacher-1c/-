@@ -29,7 +29,7 @@
     <types>CatalogRef.Сотрудники</types>
     <types>CatalogRef.Контрагенты</types>
     <types>CatalogRef.Склады</types>
-    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
     <types>DocumentRef.РучнаяОперация</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
@@ -79,7 +79,7 @@
       <type>
         <types>CatalogRef.Номенклатура</types>
         <types>DocumentRef.ПеремещениеТоваров</types>
-        <types>DocumentRef.ПоступлениеТоваров</types>
+        <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
         <types>DocumentRef.РучнаяОперация</types>
       </type>
     </items>

@@ -123,7 +123,7 @@
     <types>Number</types>
     <types>CatalogRef.Контрагенты</types>
     <types>CatalogRef.Склады</types>
-    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
     <numberQualifiers>
       <precision>10</precision>
     </numberQualifiers>

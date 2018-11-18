@@ -22,7 +22,7 @@
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
-        <name>НомерExtendedTooltip</name>
+        <name>НомерРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -75,7 +75,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ДатаExtendedTooltip</name>
+        <name>ДатаРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -127,7 +127,7 @@
       <value>Номер дата</value>
     </toolTip>
     <extendedTooltip>
-      <name>НомерДатаExtendedTooltip</name>
+      <name>НомерДатаРасширеннаяПодсказка</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -154,7 +154,7 @@
     <id>21</id>
     <items xsi:type="form:FormGroup">
       <name>Группа2</name>
-      <id>59</id>
+      <id>62</id>
       <items xsi:type="form:FormField">
         <name>Организация</name>
         <id>24</id>
@@ -168,8 +168,12 @@
             <segments>Объект.Организация</segments>
           </paths>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОрганизацияПриИзменении</name>
+        </handlers>
         <extendedTooltip>
-          <name>ОрганизацияExtendedTooltip</name>
+          <name>ОрганизацияРасширеннаяПодсказка</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -266,7 +270,7 @@
       </userVisible>
       <extendedTooltip>
         <name>Группа2РасширеннаяПодсказка</name>
-        <id>60</id>
+        <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -309,7 +313,7 @@
           </paths>
         </dataPath>
         <extendedTooltip>
-          <name>КонтрагентExtendedTooltip</name>
+          <name>КонтрагентРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -392,6 +396,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
+          <width>20</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
@@ -430,7 +435,7 @@
     </items>
     <items xsi:type="form:FormGroup">
       <name>Группа3</name>
-      <id>61</id>
+      <id>64</id>
       <items xsi:type="form:FormField">
         <name>Склад</name>
         <id>22</id>
@@ -445,7 +450,7 @@
           </paths>
         </dataPath>
         <extendedTooltip>
-          <name>СкладExtendedTooltip</name>
+          <name>СкладРасширеннаяПодсказка</name>
           <id>32</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -486,18 +491,20 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Валюта</name>
-        <id>63</id>
+        <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Валюта</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Валюта</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ВалютаРасширеннаяПодсказка</name>
-          <id>65</id>
+          <id>61</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -512,7 +519,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ВалютаКонтекстноеМеню</name>
-          <id>64</id>
+          <id>60</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -526,6 +533,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
+          <width>15</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
@@ -541,7 +549,7 @@
       </userVisible>
       <extendedTooltip>
         <name>Группа3РасширеннаяПодсказка</name>
-        <id>62</id>
+        <id>65</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -577,7 +585,7 @@
       <value>Реквизиты шапки</value>
     </toolTip>
     <extendedTooltip>
-      <name>РеквизитыШапкиExtendedTooltip</name>
+      <name>РеквизитыШапкиРасширеннаяПодсказка</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -627,7 +635,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ТоварыНомерСтрокиExtendedTooltip</name>
+        <name>ТоварыНомерСтрокиРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -679,7 +687,7 @@
         <name>ТоварыНоменклатураПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТоварыНоменклатураExtendedTooltip</name>
+        <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -735,7 +743,7 @@
         <name>ТоварыКоличествоПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТоварыКоличествоExtendedTooltip</name>
+        <name>ТоварыКоличествоРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -791,7 +799,7 @@
         <name>ТоварыЦенаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТоварыЦенаExtendedTooltip</name>
+        <name>ТоварыЦенаРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -843,7 +851,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ТоварыСуммаExtendedTooltip</name>
+        <name>ТоварыСуммаРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1065,7 +1073,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТоварыExtendedTooltip</name>
+      <name>ТоварыРасширеннаяПодсказка</name>
       <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1125,6 +1133,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1138,7 +1150,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ПоступлениеТоваров</types>
+      <types>DocumentObject.ПриобретениеТоваровИУслуг</types>
     </valueType>
     <view>
       <common>true</common>
