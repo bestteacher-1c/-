@@ -10,5 +10,5 @@
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Договоры</content>
   <content>Document.ПриобретениеТоваровИУслуг.Attribute.Договор</content>
-  <content>Document.ПродажаТоваров.Attribute.Договор</content>
+  <content>Document.РеализацияТоваровИУслуг.Attribute.Договор</content>
 </mdclass:FunctionalOption>

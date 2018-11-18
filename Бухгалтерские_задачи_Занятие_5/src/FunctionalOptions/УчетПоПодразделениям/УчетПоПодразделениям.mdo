@@ -9,7 +9,7 @@
   <location>Catalog.Организации.Attribute.УчетПоПодразделениям</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Document.ПриобретениеТоваровИУслуг.Attribute.Подразделение</content>
-  <content>Document.ПродажаТоваров.Attribute.Подразделение</content>
+  <content>Document.РеализацияТоваровИУслуг.Attribute.Подразделение</content>
   <content>Document.ПеремещениеТоваров.Attribute.ПодразделениеОтправитель</content>
   <content>Document.ПеремещениеТоваров.Attribute.ПодразделениеПолучатель</content>
   <content>AccountingRegister.Проводки.Dimension.Подразделение</content>

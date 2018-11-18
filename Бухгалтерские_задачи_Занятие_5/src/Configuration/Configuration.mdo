@@ -81,7 +81,7 @@
   <catalogs>Catalog.ГруппыФининсовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ДвиженияДенежныхСредств</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
-  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПеремещениеТоваров</documents>
   <documents>Document.ПолучениеДенежныхСредств</documents>
   <documents>Document.ВыплатыДенежныхСредств</documents>

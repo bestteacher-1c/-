@@ -15,7 +15,7 @@
 				<item xsi:type="FilterItemComparison">
 					<left xsi:type="dcscor:Field">Тип</left>
 					<comparisonType>Equal</comparisonType>
-					<right xsi:type="dcscor:DesignTimeValue">Документ.ПоступлениеТоваров</right>
+					<right xsi:type="dcscor:DesignTimeValue">Документ.ПриобретениеТоваровИУслуг</right>
 				</item>
 			</filter>
 			<appearance>
@@ -31,7 +31,7 @@
 				<item xsi:type="FilterItemComparison">
 					<left xsi:type="dcscor:Field">Тип</left>
 					<comparisonType>Equal</comparisonType>
-					<right xsi:type="dcscor:DesignTimeValue">Документ.ПродажаТоваров</right>
+					<right xsi:type="dcscor:DesignTimeValue">Документ.РеализацияТоваровИУслуг</right>
 				</item>
 			</filter>
 			<appearance>

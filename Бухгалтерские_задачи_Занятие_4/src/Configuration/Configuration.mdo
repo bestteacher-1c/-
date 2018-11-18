@@ -36,7 +36,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.8</compatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>
@@ -72,7 +72,7 @@
   <catalogs>Catalog.ГруппыФининсовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ДвиженияДенежныхСредств</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
-  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПеремещениеТоваров</documents>
   <documents>Document.ПолучениеДенежныхСредств</documents>
   <documents>Document.ВыплатыДенежныхСредств</documents>

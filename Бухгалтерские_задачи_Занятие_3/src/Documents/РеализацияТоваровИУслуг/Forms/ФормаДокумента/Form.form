@@ -22,7 +22,7 @@
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
-        <name>НомерExtendedTooltip</name>
+        <name>НомерРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -75,7 +75,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ДатаExtendedTooltip</name>
+        <name>ДатаРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -192,7 +192,7 @@
       <value>Номер дата</value>
     </toolTip>
     <extendedTooltip>
-      <name>НомерДатаExtendedTooltip</name>
+      <name>НомерДатаРасширеннаяПодсказка</name>
       <id>27</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -231,7 +231,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ОрганизацияExtendedTooltip</name>
+        <name>ОрганизацияРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -335,7 +335,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>СкладExtendedTooltip</name>
+        <name>СкладРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -394,7 +394,7 @@
           </paths>
         </dataPath>
         <extendedTooltip>
-          <name>КонтрагентExtendedTooltip</name>
+          <name>КонтрагентРасширеннаяПодсказка</name>
           <id>32</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -579,7 +579,7 @@
       <value>Реквизиты шапки</value>
     </toolTip>
     <extendedTooltip>
-      <name>РеквизитыШапкиExtendedTooltip</name>
+      <name>РеквизитыШапкиРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -629,7 +629,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ТоварыНомерСтрокиExtendedTooltip</name>
+        <name>ТоварыНомерСтрокиРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -681,7 +681,7 @@
         <name>ТоварыНоменклатураПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТоварыНоменклатураExtendedTooltip</name>
+        <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -737,7 +737,7 @@
         <name>ТоварыКоличествоПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТоварыКоличествоExtendedTooltip</name>
+        <name>ТоварыКоличествоРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -793,7 +793,7 @@
         <name>ТоварыЦенаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТоварыЦенаExtendedTooltip</name>
+        <name>ТоварыЦенаРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -845,7 +845,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ТоварыСуммаExtendedTooltip</name>
+        <name>ТоварыСуммаРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -877,7 +877,7 @@
       <showInFooter>true</showInFooter>
       <footerDataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Объект.Товары.TotalСумма</segments>
+          <segments>Объект.Товары.Сумма</segments>
         </paths>
       </footerDataPath>
       <extInfo xsi:type="form:InputFieldExtInfo">
@@ -1125,7 +1125,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТоварыExtendedTooltip</name>
+      <name>ТоварыРасширеннаяПодсказка</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1199,7 +1199,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ПродажаТоваров</types>
+      <types>DocumentObject.РеализацияТоваровИУслуг</types>
     </valueType>
     <view>
       <common>true</common>

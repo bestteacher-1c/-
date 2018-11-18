@@ -7,14 +7,14 @@
     <listType typeId="46ca0ebb-3a06-4c6b-aede-531776ca3f94" valueTypeId="822d475d-8437-4cae-ab1b-e6db0a19cecf"/>
     <managerType typeId="3c49aec5-c23f-4760-994e-980e4e481a9b" valueTypeId="48c87991-de9a-42ae-8368-d3d58f6cab35"/>
   </producedTypes>
-  <name>ПродажаТоваров</name>
+  <name>РеализацияТоваровИУслуг</name>
   <synonym>
     <key>ru</key>
     <value>Продажа товаров (ТМЦ)</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПродажаТоваров.StandardAttribute.Number</inputByString>
+  <inputByString>Document.РеализацияТоваровИУслуг.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -81,7 +81,7 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПродажаТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.РеализацияТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccountingRegister.Проводки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -157,7 +157,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
       <name>Отбор.Владелец</name>
-      <field>Document.ПродажаТоваров.Attribute.Контрагент</field>
+      <field>Document.РеализацияТоваровИУслуг.Attribute.Контрагент</field>
     </choiceParameterLinks>
     <choiceParameterLinks>
       <name>Отбор.Организация</name>
@@ -186,7 +186,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f12e0d0c-4015-4e66-8ed9-b946a0a1115c">
+  <attributes uuid="41819586-bc81-4c8b-a803-65b599a3dc55">
     <name>ВидОперации</name>
     <synonym>
       <key>ru</key>

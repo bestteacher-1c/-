@@ -10,7 +10,7 @@
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Склады</content>
   <content>Document.ПриобретениеТоваровИУслуг.Attribute.Склад</content>
-  <content>Document.ПродажаТоваров.Attribute.Склад</content>
+  <content>Document.РеализацияТоваровИУслуг.Attribute.Склад</content>
   <content>Document.ПеремещениеТоваров.Attribute.СкладОтправитель</content>
   <content>Document.ПеремещениеТоваров.Attribute.СкладПолучатель</content>
 </mdclass:FunctionalOption>
