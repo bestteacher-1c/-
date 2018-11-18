@@ -12,7 +12,6 @@
   <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
-  <fillValue xsi:type="core:UndefinedValue"/>
   <content>
     <metadata>DocumentJournal.Товарный</metadata>
     <use>Use</use>

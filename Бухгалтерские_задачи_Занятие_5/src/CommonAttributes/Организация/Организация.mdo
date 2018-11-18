@@ -13,7 +13,6 @@
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <fillChecking>ShowError</fillChecking>
-  <fillValue xsi:type="core:UndefinedValue"/>
   <content>
     <metadata>DocumentJournal.Товарный</metadata>
     <use>Use</use>
