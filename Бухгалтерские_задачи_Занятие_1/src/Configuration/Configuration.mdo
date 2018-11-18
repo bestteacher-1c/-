@@ -69,8 +69,8 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ДополнительныеЗначения</catalogs>
-  <documents>Document.ПоступлениеТоваров</documents>
-  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.ПриобретениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПеремещениеТоваров</documents>
   <documents>Document.ПолучениеДенежныхСредств</documents>
   <documents>Document.ВыплатыДенежныхСредств</documents>

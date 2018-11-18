@@ -29,8 +29,8 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.ПоступлениеТоваров.StandardCommand.OpenList</commands>
-      <commands>Document.ПродажаТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.ПриобретениеТоваровИУслуг.StandardCommand.OpenList</commands>
+      <commands>Document.РеализацияТоваровИУслуг.StandardCommand.OpenList</commands>
       <commands>Document.ПеремещениеТоваров.StandardCommand.OpenList</commands>
       <commands>Document.ПолучениеДенежныхСредств.StandardCommand.OpenList</commands>
       <commands>Document.ВыплатыДенежныхСредств.StandardCommand.OpenList</commands>

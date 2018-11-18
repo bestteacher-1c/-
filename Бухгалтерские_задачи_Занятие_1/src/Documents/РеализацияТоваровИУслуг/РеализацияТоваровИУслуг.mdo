@@ -7,14 +7,14 @@
     <listType typeId="46ca0ebb-3a06-4c6b-aede-531776ca3f94" valueTypeId="822d475d-8437-4cae-ab1b-e6db0a19cecf"/>
     <managerType typeId="3c49aec5-c23f-4760-994e-980e4e481a9b" valueTypeId="48c87991-de9a-42ae-8368-d3d58f6cab35"/>
   </producedTypes>
-  <name>ПродажаТоваров</name>
+  <name>РеализацияТоваровИУслуг</name>
   <synonym>
     <key>ru</key>
-    <value>Продажа товаров (ТМЦ)</value>
+    <value>Реализация товаров (ТМЦ)</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПродажаТоваров.StandardAttribute.Number</inputByString>
+  <inputByString>Document.РеализацияТоваровИУслуг.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -72,15 +72,15 @@
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Продажи товаров (ТМЦ)</value>
+    <value>Реализация товаров (ТМЦ)</value>
   </listPresentation>
   <numberType>String</numberType>
-  <numberLength>5</numberLength>
+  <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПродажаТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.РеализацияТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -155,7 +155,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
       <name>Отбор.Владелец</name>
-      <field>Document.ПродажаТоваров.Attribute.Контрагент</field>
+      <field>Document.РеализацияТоваровИУслуг.Attribute.Контрагент</field>
     </choiceParameterLinks>
     <choiceParameterLinks>
       <name>Отбор.Организация</name>
