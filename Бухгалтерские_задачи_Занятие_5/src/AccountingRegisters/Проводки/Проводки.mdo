@@ -156,22 +156,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlag>
   </dimensions>
-  <dimensions uuid="55cf2156-282b-4add-a5be-037bfaae2300">
-    <name>Валюта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Валюта</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.Валюты</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.Валютный</accountingFlag>
-  </dimensions>
   <resources uuid="69faf2b7-57ab-424a-99d8-df9e7970eecf">
     <name>Сумма</name>
     <synonym>
@@ -211,46 +195,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.Количественный</accountingFlag>
-  </resources>
-  <resources uuid="336c8a8b-96d6-4141-bdd1-94bce8d11574">
-    <name>СуммаВалюты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма валюты</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.Валютный</accountingFlag>
-  </resources>
-  <resources uuid="6ba089a5-ad29-474a-a007-c92a3297ef62">
-    <name>СуммаМСФО</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма МСФО</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <balance>true</balance>
   </resources>
   <attributes uuid="f383a4fb-af90-4abb-94a0-a3178554e240">
     <name>СодержаниеПроводки</name>

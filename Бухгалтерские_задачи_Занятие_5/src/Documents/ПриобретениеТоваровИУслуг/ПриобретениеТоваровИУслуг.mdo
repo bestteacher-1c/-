@@ -10,7 +10,7 @@
   <name>ПриобретениеТоваровИУслуг</name>
   <synonym>
     <key>ru</key>
-    <value>Поступление товаров (ТМЦ)</value>
+    <value>Приобретение товаров и услуг</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
@@ -19,10 +19,6 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <listPresentation>
-    <key>ru</key>
-    <value>Поступления товаров (ТМЦ)</value>
-  </listPresentation>
   <numberType>String</numberType>
   <numberLength>5</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
