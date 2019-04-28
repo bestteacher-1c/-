@@ -12,7 +12,7 @@
     <picture>CommonPicture.Бухгалтерия</picture>
   </picture>
   <content>DataProcessor.КонсольЗапросов</content>
-  <content>CommonForm.ФормаКонстант</content>
+  <content>Constant.СкладскойУчет</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
