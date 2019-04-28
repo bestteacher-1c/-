@@ -36,7 +36,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.10</compatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>
@@ -68,7 +68,6 @@
   <constants>Constant.РасчетыПоДоговорам</constants>
   <constants>Constant.ВалютаМСФО</constants>
   <constants>Constant.УчетДДС</constants>
-  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -78,7 +77,6 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ДополнительныеЗначения</catalogs>
-  <catalogs>Catalog.ГруппыФининсовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ДвиженияДенежныхСредств</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
@@ -96,7 +94,6 @@
   <reports>Report.ЖурнальныйОрдер</reports>
   <reports>Report.Ведомость</reports>
   <reports>Report.АнализСчетаПоДатам</reports>
-  <reports>Report.КурсовыеРазницы</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>

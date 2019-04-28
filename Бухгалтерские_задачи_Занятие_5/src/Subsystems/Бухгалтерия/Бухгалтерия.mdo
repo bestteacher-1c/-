@@ -21,8 +21,9 @@
   <content>Report.АнализСчетаПоДатам</content>
   <content>Report.АнализСчета_</content>
   <content>DataProcessor.КонсольЗапросов</content>
-  <content>CommonForm.ФормаКонстант</content>
-  <content>Report.КурсовыеРазницы</content>
+  <content>Constant.СкладскойУчет</content>
+  <content>Constant.РасчетыПоДоговорам</content>
+  <content>Constant.УчетДДС</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>

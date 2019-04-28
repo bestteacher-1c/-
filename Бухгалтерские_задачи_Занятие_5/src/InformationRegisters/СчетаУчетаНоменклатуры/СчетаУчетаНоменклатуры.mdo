@@ -96,23 +96,18 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="4d3d022d-dbd5-4dc6-8e12-fe333a008c4b">
-    <name>ГруппаФинансовогоУчетаНоменклатуры</name>
+  <dimensions uuid="4d9af01e-d5ac-49d3-b3a4-8c35b7db6255">
+    <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
-      <value>Группа финансового учета номенклатуры</value>
+      <value>Номенклатура</value>
     </synonym>
-    <comment></comment>
     <type>
-      <types>CatalogRef.ГруппыФининсовогоУчетаНоменклатуры</types>
+      <types>CatalogRef.Номенклатура</types>
     </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>

@@ -31,12 +31,6 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.ГруппыФининсовогоУчетаНоменклатуры.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -46,10 +40,6 @@
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Договоры.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>Catalog.ГруппыФининсовогоУчетаНоменклатуры.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -66,10 +56,6 @@
       <commands>Catalog.Валюты.StandardCommand.OpenList</commands>
       <commands>Catalog.Склады.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>Catalog.ГруппыФининсовогоУчетаНоменклатуры.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

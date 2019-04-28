@@ -2,9 +2,7 @@
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0dd7f20-08b3-4267-bfd1-a8d943bda557">
   <producedTypes>
     <objectType typeId="f58d011d-8ea1-4f44-86b8-5f11283dbdde" valueTypeId="49b36711-4ab5-4e55-850d-ed157b26926a"/>
-    <refType typeId="127e9786-3445-4a94-bf64-7a31f57ef046" valueTypeId="ba318edf-9e61-43ee-b200-4a089e62169a">
-      <emptyRef/>
-    </refType>
+    <refType typeId="127e9786-3445-4a94-bf64-7a31f57ef046" valueTypeId="ba318edf-9e61-43ee-b200-4a089e62169a"/>
     <selectionType typeId="282eb613-6021-41d5-b558-cd5a991937a1" valueTypeId="629bbdf8-7f3f-43c2-aaa2-cc39803f1a61"/>
     <listType typeId="f288cb23-516d-4f3e-ae7a-9b369f232e66" valueTypeId="629b05a2-c7a2-4091-9f94-8834908b9b6b"/>
     <managerType typeId="2b718693-4bdc-4499-b07b-70418c4a6b08" valueTypeId="3851c3e2-bbaf-4c71-a901-eaff86a64698"/>
@@ -134,23 +132,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="e5f77f1a-d6ab-47e5-8e0b-dbd3e0a05124">
-    <name>ГруппаФинансовогоУчетаНоменклатуры</name>
-    <synonym>
-      <key>ru</key>
-      <value>Группа финансового учета номенклатуры</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.ГруппыФининсовогоУчетаНоменклатуры</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <tabularSections uuid="b674556b-b546-402b-94c6-bae68a5cbb55">
     <producedTypes>
       <objectType typeId="80255b6f-95e7-48b1-a67b-997db2440547" valueTypeId="604258bf-b711-4b14-b517-cccb335d721b"/>

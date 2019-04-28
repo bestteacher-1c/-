@@ -8,28 +8,14 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.ВалютаМСФО.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.КонсольЗапросов.StandardCommand.Open</command>
       <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>CommonForm.ФормаКонстант.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-      </visible>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>AccountingRegister.Проводки.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>CommandGroup.ПараметрыУчета</group>
-      <commands>CommonForm.ФормаКонстант.StandardCommand.Open</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -38,8 +24,12 @@
       <commands>AccountingRegister.Проводки.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
-      <group>CommandGroup.ПараметрыУчета</group>
-      <commands>CommonForm.ФормаКонстант.StandardCommand.Open</commands>
+      <group>ActionsPanelTools</group>
+      <commands>Constant.СкладскойУчет.StandardCommand.Open</commands>
+      <commands>Constant.РасчетыПоДоговорам.StandardCommand.Open</commands>
+      <commands>Constant.ВалютаМСФО.StandardCommand.Open</commands>
+      <commands>Constant.УчетДДС.StandardCommand.Open</commands>
+      <commands>DataProcessor.КонсольЗапросов.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
   <subsystemsOrder>
