@@ -10,7 +10,7 @@
   <name>РеализацияТоваровИУслуг</name>
   <synonym>
     <key>ru</key>
-    <value>Реализация товаров (ТМЦ)</value>
+    <value>Реализация товаров и услуг</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
@@ -72,7 +72,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Реализация товаров (ТМЦ)</value>
+    <value>Реализации товаров и услуг</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>

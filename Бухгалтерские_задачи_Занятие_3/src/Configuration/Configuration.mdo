@@ -56,7 +56,6 @@
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <constants>Constant.СкладскойУчет</constants>
   <constants>Constant.ПервыйЗапуск</constants>
-  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -66,7 +65,6 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ДополнительныеЗначения</catalogs>
-  <catalogs>Catalog.ГруппыФининсовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ДвиженияДенежныхСредств</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>

@@ -19,6 +19,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приобретения товаров и услуг</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>5</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>

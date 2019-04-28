@@ -66,7 +66,6 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ДополнительныеЗначения</catalogs>
-  <catalogs>Catalog.ГруппыФининсовогоУчетаНоменклатуры</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПеремещениеТоваров</documents>
