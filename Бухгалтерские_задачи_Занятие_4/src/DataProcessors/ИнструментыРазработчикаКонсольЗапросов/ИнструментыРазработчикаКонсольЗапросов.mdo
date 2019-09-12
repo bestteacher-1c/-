@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Консоль запросов</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Form.Форма</defaultForm>
   <help>
@@ -23,11 +22,9 @@
       <key>ru</key>
       <value>Использовать автосохранение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -37,7 +34,6 @@
       <key>ru</key>
       <value>Период автосохранения</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -45,7 +41,6 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -55,14 +50,12 @@
       <key>ru</key>
       <value>Путь к формам</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>700</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -72,12 +65,10 @@
       <key>ru</key>
       <value>Доступные типы данных</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>TypeDescription</types>
       <types>AnyRef</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -92,7 +83,6 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -102,11 +92,9 @@
       <key>ru</key>
       <value>Выводить в результатах запроса значения ссылок</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -116,14 +104,12 @@
       <key>ru</key>
       <value>Тип обхода результата запроса</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>10</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -133,11 +119,9 @@
       <key>ru</key>
       <value>Чередование цветов в результате запроса</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -147,11 +131,9 @@
       <key>ru</key>
       <value>Цвет запрос</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Color</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -161,11 +143,9 @@
       <key>ru</key>
       <value>Шрифт запрос</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Font</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -179,14 +159,11 @@
       <key>ru</key>
       <value>Запросы</value>
     </synonym>
-    <comment></comment>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -196,11 +173,9 @@
         <key>ru</key>
         <value>Идентификатор</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>UUID</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -211,14 +186,12 @@
         <key>ru</key>
         <value>Запрос</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>150</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:StringValue">
@@ -231,12 +204,10 @@
         <key>ru</key>
         <value>Текст</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:StringValue">
@@ -258,7 +229,6 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -277,7 +247,6 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -295,7 +264,6 @@
           <length>100</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:StringValue">
@@ -315,7 +283,6 @@
           <length>100</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:StringValue">
@@ -328,11 +295,9 @@
         <key>ru</key>
         <value>Заголовок</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Boolean</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -343,7 +308,6 @@
         <key>ru</key>
         <value>Родитель</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -351,7 +315,6 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -367,14 +330,11 @@
       <key>ru</key>
       <value>Параметры</value>
     </synonym>
-    <comment></comment>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -384,11 +344,9 @@
         <key>ru</key>
         <value>Идентификатор</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>UUID</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -399,11 +357,9 @@
         <key>ru</key>
         <value>Идентификатор запроса</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>UUID</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -414,14 +370,12 @@
         <key>ru</key>
         <value>Имя</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>50</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:StringValue">
@@ -434,12 +388,10 @@
         <key>ru</key>
         <value>Тип</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:StringValue">
@@ -452,12 +404,10 @@
         <key>ru</key>
         <value>Значение</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:StringValue">
@@ -474,7 +424,6 @@
       <type>
         <types>Boolean</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -486,7 +435,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -496,7 +444,6 @@
       <key>ru</key>
       <value>Настройки</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -506,7 +453,6 @@
       <key>ru</key>
       <value>Выбор запроса</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -516,7 +462,6 @@
       <key>ru</key>
       <value>Таблица значений</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -526,7 +471,6 @@
       <key>ru</key>
       <value>Текст запроса для конфигуратора</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -536,7 +480,6 @@
       <key>ru</key>
       <value>Момент времени</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -546,7 +489,6 @@
       <key>ru</key>
       <value>Граница</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -556,7 +498,6 @@
       <key>ru</key>
       <value>Результат запроса</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -566,7 +507,6 @@
       <key>ru</key>
       <value>План выполнения запроса</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -576,6 +516,5 @@
       <key>ru</key>
       <value>Результат выполнения запроса</value>
     </synonym>
-    <comment></comment>
   </templates>
 </mdclass:DataProcessor>

@@ -7,16 +7,16 @@
 			</item>
 		</selection>
 		<filter>
-			<item xsi:type=":FilterItemComparison">
+			<item xsi:type="FilterItemComparison">
 				<left xsi:type="dcscor:Field">Объект.Запросы.Заголовок</left>
 				<comparisonType>Equal</comparisonType>
 				<right xsi:type="xs:boolean">true</right>
 			</item>
 		</filter>
 		<appearance>
-			<dcscor:item xsi:type=":SettingsParameterValue">
-				<dcscor:parameter>Font</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Font" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Шрифт</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 			</dcscor:item>
 		</appearance>
 	</item>
