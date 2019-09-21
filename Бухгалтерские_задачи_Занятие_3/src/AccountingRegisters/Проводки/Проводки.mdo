@@ -18,6 +18,7 @@
   <useStandardCommands>true</useStandardCommands>
   <chartOfAccounts>ChartOfAccounts.Счета</chartOfAccounts>
   <correspondence>true</correspondence>
+  <defaultListForm>AccountingRegister.Проводки.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Account</name>
@@ -123,4 +124,14 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <forms uuid="5f357991-9a7c-4bd7-9d3a-081ccda20548">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:AccountingRegister>
