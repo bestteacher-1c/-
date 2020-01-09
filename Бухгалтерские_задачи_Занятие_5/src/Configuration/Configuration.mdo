@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9933db4a-bf28-4c16-b8c5-e17315e642d5">
   <name>БухгалтерскиеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерские задачи (Занятие 5)</value>
+  </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f8f72ed2-4faf-49fd-a03d-796ab6160c4d"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fd495839-199c-4ca9-9c65-08609d79b8aa"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a271bf64-02b3-4164-abb5-d67215431982"/>
