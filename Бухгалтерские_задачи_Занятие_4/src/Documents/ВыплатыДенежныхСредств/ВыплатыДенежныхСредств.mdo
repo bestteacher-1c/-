@@ -2,9 +2,7 @@
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9eb8ab5a-89e7-4e6b-af37-85f84b9045d9">
   <producedTypes>
     <objectType typeId="51abf64a-5d92-47d4-8ed7-9752b4f89ad9" valueTypeId="c790e716-fb7a-4af7-953f-b16aa0492ef8"/>
-    <refType typeId="1d79f6b3-81e5-4bd3-bb32-53719f27a1bc" valueTypeId="502e294b-6a20-4817-8576-5e8e5cae12c7">
-      <emptyRef/>
-    </refType>
+    <refType typeId="1d79f6b3-81e5-4bd3-bb32-53719f27a1bc" valueTypeId="502e294b-6a20-4817-8576-5e8e5cae12c7"/>
     <selectionType typeId="3ab8c0e8-74f8-481b-8fd3-ff51e0922408" valueTypeId="8bc198d9-25b7-4e52-9d29-64b114395620"/>
     <listType typeId="2efc6d34-4489-4bba-a61b-4ef3c4806681" valueTypeId="e7cd4fc7-2002-4929-b33f-7a0c838f98ab"/>
     <managerType typeId="9f4dae45-339f-436c-a25c-619f5d99eb32" valueTypeId="97e89b7b-dab2-48f6-b2c3-38e4e3877237"/>
@@ -102,20 +100,38 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3330e701-f217-4f6d-a830-0fa031c78eef">
-    <name>Наличные</name>
+  <attributes uuid="cec877ba-bab0-4664-818b-95e103788d9a">
+    <name>МестоХраненияДенежныхСредств</name>
     <synonym>
       <key>ru</key>
-      <value>Наличные</value>
+      <value>Место хранения денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХраненияДенежныхСредств</types>
+    </type>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>CommonAttribute.Организация</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3f65efe-65b9-4cca-8d94-7f45e4f30a29">
+    <name>ДвижениеДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение денежных средств</value>
     </synonym>
     <comment></comment>
     <type>
-      <types>Boolean</types>
+      <types>CatalogRef.ДвиженияДенежныхСредств</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>56d00293-5359-4c76-a9eb-11cfcc076643.d9dac098-3fd5-431f-9ec5-9cefb7fa7869</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -137,6 +153,26 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b646e7f-1635-4579-9bc7-df742d53b900">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Валюты.EmptyRef</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -192,45 +228,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9b646e7f-1635-4579-9bc7-df742d53b900">
-    <name>Валюта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Валюта</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.Валюты</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Catalog.Валюты.EmptyRef</value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="d3f65efe-65b9-4cca-8d94-7f45e4f30a29">
-    <name>ДДС</name>
-    <synonym>
-      <key>ru</key>
-      <value>ДДС</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.ДвиженияДенежныхСредств</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>56d00293-5359-4c76-a9eb-11cfcc076643.d9dac098-3fd5-431f-9ec5-9cefb7fa7869</value>
-    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

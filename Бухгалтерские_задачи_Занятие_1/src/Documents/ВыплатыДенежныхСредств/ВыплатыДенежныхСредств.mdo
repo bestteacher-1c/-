@@ -77,20 +77,56 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="3330e701-f217-4f6d-a830-0fa031c78eef">
-    <name>Наличные</name>
+  <attributes uuid="e5b68fd1-4327-4646-8d35-64cf253dbe4e">
+    <name>Подразделение</name>
     <synonym>
       <key>ru</key>
-      <value>Наличные</value>
+      <value>Подразделение</value>
     </synonym>
     <comment></comment>
     <type>
-      <types>Boolean</types>
+      <types>CatalogRef.Подразделения</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>CommonAttribute.Организация</field>
+    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="867c3e2d-3a46-4b73-b3f0-b42b27ce6e33">
+    <name>МестоХраненияДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХраненияДенежныхСредств</types>
+    </type>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>CommonAttribute.Организация</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97d5a3aa-f139-4a25-ad47-3ff74d36ff77">
+    <name>ДвижениеДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение денежных средств</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДвиженияДенежныхСредств</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -194,27 +230,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="e5b68fd1-4327-4646-8d35-64cf253dbe4e">
-    <name>Подразделение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подразделение</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.Подразделения</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>CommonAttribute.Организация</field>
-    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

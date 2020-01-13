@@ -9,6 +9,6 @@
   <location>Constant.УчетДДС</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.ДвиженияДенежныхСредств</content>
-  <content>Document.ПолучениеДенежныхСредств.Attribute.ДДС</content>
-  <content>Document.ВыплатыДенежныхСредств.Attribute.ДДС</content>
+  <content>Document.ПолучениеДенежныхСредств.Attribute.ДвижениеДенежныхСредств</content>
+  <content>Document.ВыплатыДенежныхСредств.Attribute.ДвижениеДенежныхСредств</content>
 </mdclass:FunctionalOption>

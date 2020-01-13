@@ -16,5 +16,7 @@
   <content>Catalog.Склады</content>
   <content>Catalog.Валюты</content>
   <content>Catalog.Сотрудники</content>
+  <content>Catalog.МестаХраненияДенежныхСредств</content>
+  <content>Catalog.ДвиженияДенежныхСредств</content>
   <parentSubsystem>Subsystem.Бухгалтерия</parentSubsystem>
 </mdclass:Subsystem>

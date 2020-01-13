@@ -15,16 +15,6 @@
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.ПолучениеДенежныхСредств</registeredDocuments>
   <registeredDocuments>Document.ВыплатыДенежныхСредств</registeredDocuments>
-  <columns uuid="827940b7-b48d-42da-819a-f840c7c57584">
-    <name>Наличные</name>
-    <synonym>
-      <key>ru</key>
-      <value>Наличные</value>
-    </synonym>
-    <comment></comment>
-    <references>Document.ПолучениеДенежныхСредств.Attribute.Наличные</references>
-    <references>Document.ВыплатыДенежныхСредств.Attribute.Наличные</references>
-  </columns>
   <columns uuid="c6113829-d7cd-4984-b671-46a31b80f3af">
     <name>Сумма</name>
     <synonym>
@@ -54,6 +44,15 @@
     <comment></comment>
     <references>Document.ПолучениеДенежныхСредств.Attribute.КорСчет</references>
     <references>Document.ВыплатыДенежныхСредств.Attribute.КорСчет</references>
+  </columns>
+  <columns uuid="63309ac8-3388-404c-96ed-5f49f836ceed">
+    <name>МестоХраненияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения ДС</value>
+    </synonym>
+    <references>Document.ПолучениеДенежныхСредств.Attribute.МестоХраненияДенежныхСредств</references>
+    <references>Document.ВыплатыДенежныхСредств.Attribute.МестоХраненияДенежныхСредств</references>
   </columns>
   <forms uuid="ad3a67bc-deb0-4729-8e7a-59859ae57f63">
     <name>ФормаСписка</name>

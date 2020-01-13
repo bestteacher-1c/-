@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="753d76d4-433b-4495-b16b-c7f4443d6c80">
+  <producedTypes>
+    <objectType typeId="8ae63312-211a-4196-9084-87f731067af3" valueTypeId="00f66620-8d74-44d2-b7bd-2c3af5707012"/>
+    <refType typeId="f265a7c3-694e-405f-8a70-4c8188e6a274" valueTypeId="4af601be-6286-41cf-9851-9d34daed2124"/>
+    <selectionType typeId="d7a34e72-c7b5-4a69-a7af-53f721a51b89" valueTypeId="c7941342-8696-4f9b-bb7d-8742038216a9"/>
+    <listType typeId="a012a79f-ab6a-4be2-96d0-33f7b2e3a0fa" valueTypeId="28f9d664-30e1-486d-82cb-75507c95be9a"/>
+    <managerType typeId="c7694d92-d3e7-4723-b5fa-d74eb109b90d" valueTypeId="b457a3fa-c58e-4709-96f4-6eedcbcbca79"/>
+  </producedTypes>
+  <name>МестаХраненияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места хранения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестаХраненияДенежныхСредств.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МестаХраненияДенежныхСредств.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="dc4bdf3a-e6c2-4550-b665-b523b74e5adc">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Счета</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

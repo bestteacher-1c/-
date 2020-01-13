@@ -8,7 +8,7 @@
   <name>Товарный</name>
   <synonym>
     <key>ru</key>
-    <value>Товарный</value>
+    <value>Журнал &quot;Товарные документы&quot;</value>
   </synonym>
   <comment></comment>
   <defaultForm>DocumentJournal.Товарный.Form.ФормаСписка</defaultForm>

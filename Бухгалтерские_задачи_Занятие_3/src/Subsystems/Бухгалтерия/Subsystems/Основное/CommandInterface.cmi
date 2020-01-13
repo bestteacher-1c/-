@@ -7,10 +7,6 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>0:7721ab15-f046-4dfb-8c22-4308668c263f</command>
-      <visible/>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>

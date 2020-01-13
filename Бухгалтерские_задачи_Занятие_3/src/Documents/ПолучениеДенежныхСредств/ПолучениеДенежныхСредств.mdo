@@ -2,9 +2,7 @@
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23a0b08d-83b7-4589-ae09-12c2f65f9501">
   <producedTypes>
     <objectType typeId="863092a5-2ca0-4b9f-ac29-55b27a193d4f" valueTypeId="33d428bb-968d-4b8a-b8df-3f96d5b8dc08"/>
-    <refType typeId="214966ee-d83c-4cbd-bce4-8ce6c70ad49c" valueTypeId="d7f6966e-c59b-4bd9-933d-03df46135559">
-      <emptyRef/>
-    </refType>
+    <refType typeId="214966ee-d83c-4cbd-bce4-8ce6c70ad49c" valueTypeId="d7f6966e-c59b-4bd9-933d-03df46135559"/>
     <selectionType typeId="6b81abe7-98b9-4b0c-aae1-826388083c41" valueTypeId="2fb5c44c-cf86-4e74-96d7-7b4d654ee15e"/>
     <listType typeId="8a82a756-ece0-4f3e-bbda-cde4ad273a8e" valueTypeId="84973625-c23c-402e-8fb0-716222b554ea"/>
     <managerType typeId="42f989e5-c21b-44aa-a08a-84d02f5cfc7e" valueTypeId="5c9b6793-f684-46b9-b409-cbda4990684f"/>
@@ -102,20 +100,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="fdfec3a8-1dcf-4f91-bd46-97c0c0811919">
-    <name>Наличные</name>
+  <attributes uuid="c875df65-f809-4cf7-a67d-d968b00a32dc">
+    <name>МестоХраненияДенежныхСредств</name>
     <synonym>
       <key>ru</key>
-      <value>Наличные</value>
+      <value>Место хранения денежных средств</value>
     </synonym>
-    <comment></comment>
     <type>
-      <types>Boolean</types>
+      <types>CatalogRef.МестаХраненияДенежныхСредств</types>
     </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>CommonAttribute.Организация</field>
+    </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -181,10 +178,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="56dc6cc7-3912-4eac-bcaf-5c60b5b2d249">
-    <name>ДДС</name>
+    <name>ДвижениеДенежныхСредств</name>
     <synonym>
       <key>ru</key>
-      <value>ДДС</value>
+      <value>Движение денежных средств</value>
     </synonym>
     <comment></comment>
     <type>
@@ -199,7 +196,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="07f7bd81-8c70-4bba-80be-856d29537ca0">
+  <forms uuid="0cb0537f-fc4f-4db9-b069-5520d486c7a5">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
