@@ -50,6 +50,7 @@
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.СерверныйСВызовом</commonModules>
   <commonModules>CommonModule.Бухгалтерия</commonModules>
+  <commonModules>CommonModule.БухгалтерияВызовСервера</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
   <constants>Constant.ПервыйЗапуск</constants>

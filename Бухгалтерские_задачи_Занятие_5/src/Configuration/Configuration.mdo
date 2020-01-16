@@ -40,6 +40,7 @@
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.СерверныйСВызовом</commonModules>
   <commonModules>CommonModule.Бухгалтерия</commonModules>
+  <commonModules>CommonModule.БухгалтерияВызовСервера</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <eventSubscriptions>EventSubscription.ПроверкаЗаполненияПодразделения</eventSubscriptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
