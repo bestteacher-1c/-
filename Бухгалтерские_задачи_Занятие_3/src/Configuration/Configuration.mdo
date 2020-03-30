@@ -50,6 +50,8 @@
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.БухгалтерияВызовСервера</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <constants>Constant.СкладскойУчет</constants>
   <constants>Constant.ПервыйЗапуск</constants>
   <catalogs>Catalog.Организации</catalogs>

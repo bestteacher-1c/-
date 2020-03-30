@@ -52,6 +52,8 @@
   <commonModules>CommonModule.БухгалтерияВызовСервера</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <constants>Constant.ПервыйЗапуск</constants>
   <constants>Constant.СкладскойУчет</constants>
   <constants>Constant.ВалютаМСФО</constants>

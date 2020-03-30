@@ -47,6 +47,8 @@
   <functionalOptions>FunctionalOption.ВалютныйУчет</functionalOptions>
   <functionalOptions>FunctionalOption.УчетДДС</functionalOptions>
   <functionalOptionsParameters>FunctionalOptionsParameter.ПФО_Организация</functionalOptionsParameters>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <commandGroups>CommandGroup.ПараметрыУчета</commandGroups>
   <constants>Constant.ПервыйЗапуск</constants>
   <constants>Constant.СкладскойУчет</constants>
