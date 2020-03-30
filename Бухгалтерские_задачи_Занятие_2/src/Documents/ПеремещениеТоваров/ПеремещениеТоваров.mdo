@@ -2,9 +2,7 @@
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d0abb3b-8967-4e45-b775-c22ed1541764">
   <producedTypes>
     <objectType typeId="6790ec34-c494-499b-891c-f402419b3a2d" valueTypeId="3520a394-c840-4242-81cf-84d78ec63822"/>
-    <refType typeId="88fafda8-15fd-4e1b-bc37-77ca1f520b3b" valueTypeId="af4e39c4-e939-4145-896f-ec7c4d77a144">
-      <emptyRef/>
-    </refType>
+    <refType typeId="88fafda8-15fd-4e1b-bc37-77ca1f520b3b" valueTypeId="af4e39c4-e939-4145-896f-ec7c4d77a144"/>
     <selectionType typeId="529f9200-2c95-41b8-a488-6f5b50d0b3d7" valueTypeId="1570b6ce-e568-4ef3-9944-f83a3441abd9"/>
     <listType typeId="5ba50498-2631-4c82-a56b-20198ca4c965" valueTypeId="f6cece8d-5e83-409e-9557-20c16a022d2f"/>
     <managerType typeId="8f7278c8-4b0f-4c8b-a68b-ea70e2b6f02e" valueTypeId="4a28dae1-cd4f-45dc-bbb2-dfd5ec62c91d"/>
@@ -217,10 +215,7 @@
       </synonym>
       <comment></comment>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
+        <types>DefinedType.Количество</types>
       </type>
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -236,11 +231,7 @@
       </synonym>
       <comment></comment>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>2</scale>
-        </numberQualifiers>
+        <types>DefinedType.ДенежнаяСумма</types>
       </type>
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>

@@ -80,11 +80,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>DefinedType.ДенежнаяСумма</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>

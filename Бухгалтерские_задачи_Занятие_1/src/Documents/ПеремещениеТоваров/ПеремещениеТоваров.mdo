@@ -214,10 +214,7 @@
       </synonym>
       <comment></comment>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
+        <types>DefinedType.Количество</types>
       </type>
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>

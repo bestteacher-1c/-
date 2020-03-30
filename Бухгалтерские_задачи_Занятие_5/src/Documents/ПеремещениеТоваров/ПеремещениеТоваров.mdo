@@ -219,10 +219,7 @@
       </synonym>
       <comment></comment>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
+        <types>DefinedType.Количество</types>
       </type>
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -239,11 +236,7 @@
       </synonym>
       <comment></comment>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>2</scale>
-        </numberQualifiers>
+        <types>DefinedType.ДенежнаяСумма</types>
       </type>
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
