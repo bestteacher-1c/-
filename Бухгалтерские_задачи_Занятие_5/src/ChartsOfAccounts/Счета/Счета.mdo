@@ -12,7 +12,7 @@
   <name>Счета</name>
   <synonym>
     <key>ru</key>
-    <value>Бухгалтерские счета</value>
+    <value>План счетов &quot;Бухгалтерские счета&quot;</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>

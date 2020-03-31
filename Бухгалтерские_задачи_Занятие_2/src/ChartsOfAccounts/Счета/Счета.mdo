@@ -2,9 +2,7 @@
 <mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8297798c-ddf2-46eb-8239-02caf7bc1550">
   <producedTypes>
     <objectType typeId="fece13b7-9679-49bc-b41a-47fb7199cb8e" valueTypeId="8a642270-4faf-499a-85bb-0f2eaf393db5"/>
-    <refType typeId="d945043c-bc51-479d-886e-1995e6afbdf0" valueTypeId="527b443d-5da9-4873-8a81-29b6c4936089">
-      <emptyRef/>
-    </refType>
+    <refType typeId="d945043c-bc51-479d-886e-1995e6afbdf0" valueTypeId="527b443d-5da9-4873-8a81-29b6c4936089"/>
     <selectionType typeId="8a5db57f-36e2-4083-ac51-0723cdd9488a" valueTypeId="5ce0b330-871e-4d5c-aef8-bf510d730ce3"/>
     <listType typeId="3b734997-c067-4c78-96ee-403b2b5378e8" valueTypeId="659c17d4-38f6-4856-b35a-8c67d1257a50"/>
     <managerType typeId="0753a6a8-7631-452b-8f3b-4e96564582db" valueTypeId="d1d63d1b-c996-4b8f-a83c-957835b98308"/>
@@ -14,7 +12,7 @@
   <name>Счета</name>
   <synonym>
     <key>ru</key>
-    <value>Бухгалтерские счета</value>
+    <value>План счетов &quot;Бухгалтерские счета&quot;</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
