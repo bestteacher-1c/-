@@ -66,6 +66,7 @@
   <catalogs>Catalog.МестаХраненияДенежныхСредств</catalogs>
   <catalogs>Catalog.ДвиженияДенежныхСредств</catalogs>
   <catalogs>Catalog.ДополнительныеЗначения</catalogs>
+  <catalogs>Catalog.Тест</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПеремещениеТоваров</documents>
