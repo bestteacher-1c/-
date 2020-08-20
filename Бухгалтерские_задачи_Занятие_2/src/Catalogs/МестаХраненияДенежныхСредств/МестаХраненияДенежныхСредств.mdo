@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59d02821-4852-4394-87ca-7619b331c8d3">
+  <producedTypes>
+    <objectType typeId="e6f7ab51-8cd1-4d37-8a56-8929fb32e0a0" valueTypeId="3193b7e4-b34f-4e96-ae7a-a86012b0888d"/>
+    <refType typeId="3c9c5603-1c9c-417c-9bb7-78a2e60d4574" valueTypeId="693408fc-4575-4ae6-8b88-43a7db009315"/>
+    <selectionType typeId="bfeed067-d48b-4f3f-8bf0-384661294120" valueTypeId="6095f4c4-458d-41f1-bdfe-4934f9a46924"/>
+    <listType typeId="382d5517-6ea4-4d44-ac61-e1bd6830281e" valueTypeId="d6bf144b-2583-4971-abf1-4e09c12b2d15"/>
+    <managerType typeId="d8015cd4-a053-4af9-9214-1dd596d6f17d" valueTypeId="75851358-3df2-47b7-a7c4-9231c0c617a1"/>
+  </producedTypes>
+  <name>МестаХраненияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места хранения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестаХраненияДенежныхСредств.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МестаХраненияДенежныхСредств.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4d9c213b-8e62-4c02-98c4-fbc98d40c51d">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Счета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

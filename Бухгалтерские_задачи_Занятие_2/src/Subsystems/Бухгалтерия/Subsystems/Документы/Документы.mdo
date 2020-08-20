@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2296559e-f05e-4d88-be39-a10c25a8435a">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПриобретениеТоваровИУслуг</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>Document.ПеремещениеТоваров</content>
+  <content>Document.ПолучениеДенежныхСредств</content>
+  <content>Document.ВыплатыДенежныхСредств</content>
+  <content>Document.РучнаяОперация</content>
+  <content>DocumentJournal.Товарный</content>
+  <content>DocumentJournal.ДенежныеСредства</content>
+  <parentSubsystem>Subsystem.Бухгалтерия</parentSubsystem>
+</mdclass:Subsystem>
