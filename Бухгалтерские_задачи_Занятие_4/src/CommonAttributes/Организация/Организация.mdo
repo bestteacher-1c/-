@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cb222bf-8541-4446-acd6-0d7a2f12b71d">
+  <name>Организация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>DocumentJournal.Товарный</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ПолучениеДенежныхСредств</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ПеремещениеТоваров</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.РеализацияТоваровИУслуг</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ВыплатыДенежныхСредств</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>DocumentJournal.ДенежныеСредства</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ПриобретениеТоваровИУслуг</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>
