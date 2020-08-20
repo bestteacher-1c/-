@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e68eef79-1269-415a-9b7a-f181338b32ee">
+  <name>Бухгалтерия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Бухгалтерия</picture>
+  </picture>
+  <content>AccountingRegister.Проводки</content>
+  <content>Constant.ВалютаМСФО</content>
+  <content>Report.Шахматка</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>Report.АнализСчета</content>
+  <content>Report.ЖурнальныйОрдер</content>
+  <content>Report.Ведомость</content>
+  <content>Report.АнализСчетаПоДатам</content>
+  <content>Report.АнализСчета_</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>Constant.СкладскойУчет</content>
+  <content>Constant.РасчетыПоДоговорам</content>
+  <content>Constant.УчетДДС</content>
+  <subsystems>Основное</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Прочее</subsystems>
+</mdclass:Subsystem>

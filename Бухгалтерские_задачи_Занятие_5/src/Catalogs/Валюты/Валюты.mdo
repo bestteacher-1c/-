@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa75f403-95de-4b40-bb3a-57829aa2f81f">
+  <producedTypes>
+    <objectType typeId="de90083b-aa10-492d-b585-7194b0861739" valueTypeId="c6712bc1-5416-4410-99e3-9a44a02fe205"/>
+    <refType typeId="a4c6ecbc-5ce5-4876-aaf4-ad22e7271e84" valueTypeId="41cfc428-bc8c-441f-80c2-2536a6480058"/>
+    <selectionType typeId="78ae8f99-938c-4557-b2c5-bf44692f8485" valueTypeId="f79a8c3d-4b67-4395-a5da-fa723abf728c"/>
+    <listType typeId="03350a97-6edd-4427-87ec-a78788c8b338" valueTypeId="c71337a5-e6ed-4997-9d1d-101f9a4e9ef0"/>
+    <managerType typeId="7df3a812-0798-4ee6-9777-6c4161670487" valueTypeId="2927be03-6c54-472c-913d-ce5bc4216aa0"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2dab6f3a-8793-464d-bc80-794a137e2df9">
+      <name>РубльРФ</name>
+      <description>Рубль РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>643</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
