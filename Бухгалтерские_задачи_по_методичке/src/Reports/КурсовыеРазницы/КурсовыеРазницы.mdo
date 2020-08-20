@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8423306-02e2-4385-b3fd-8697936406cd">
+  <producedTypes>
+    <objectType typeId="b6d50733-555c-4d71-ab5f-265d45c9c079" valueTypeId="cf646fe7-dfc6-4b08-959a-96273afdd7c0"/>
+    <managerType typeId="a706afe3-e105-4010-8ce8-8b871454af5b" valueTypeId="42e169bb-4a21-4dbc-8742-ed6bb4a1a2a1"/>
+  </producedTypes>
+  <name>КурсовыеРазницы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсовые разницы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КурсовыеРазницы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3428f506-972f-4f31-a1c4-712494e23681">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

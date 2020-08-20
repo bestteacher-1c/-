@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b87b45b9-816e-470d-8b75-a6ec0dee07f1">
+  <producedTypes>
+    <objectType typeId="a6623fcb-8df5-471d-bdd6-4089fabe92e9" valueTypeId="183ccc32-b418-40ad-9850-a2ce0dc8aa97"/>
+    <managerType typeId="a6616c20-0298-418c-9ffc-e0b20d76ecb0" valueTypeId="6a28d916-4a83-4232-a0e1-d58709793a6f"/>
+  </producedTypes>
+  <name>АнализСчетаПоДатам</name>
+  <synonym>
+    <key>ru</key>
+    <value>5) Анализ счета по датам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализСчетаПоДатам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="da415840-4881-48a6-a3b6-3234073c722d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

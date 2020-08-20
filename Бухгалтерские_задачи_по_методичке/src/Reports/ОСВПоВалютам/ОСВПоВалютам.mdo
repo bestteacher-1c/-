@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77670d24-adc0-43d1-9120-7d59095ced61">
+  <producedTypes>
+    <objectType typeId="d5805a30-1963-4ec0-8d52-2a9b9e1ae47b" valueTypeId="7c64b50f-bf23-4715-b14a-625126873261"/>
+    <managerType typeId="f8c91977-6f91-4a89-854a-1460a6b6a643" valueTypeId="1daaab5f-815c-429b-87dc-baa6f195d6d6"/>
+  </producedTypes>
+  <name>ОСВПоВалютам</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСВПо валютам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОСВПоВалютам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0d53cc1b-9f23-4cc2-9b34-d7c2c68a4225">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

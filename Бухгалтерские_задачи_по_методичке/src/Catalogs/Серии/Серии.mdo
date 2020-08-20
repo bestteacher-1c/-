@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e31c9342-91f5-4ab1-b020-0f061d0f81e8">
+  <producedTypes>
+    <objectType typeId="3e55dd48-a2c8-47c9-abc8-d7ad283df652" valueTypeId="2367a976-9559-4daf-8883-0d8b0ebe32af"/>
+    <refType typeId="e480c35d-4156-41fd-91d4-834c00a43c4f" valueTypeId="ba078c69-ebee-48c5-9ad3-d2c0634b337b"/>
+    <selectionType typeId="35c94ba0-2463-4b20-9084-306ac787d981" valueTypeId="b01b4f7a-7ce6-425c-a43e-e2218e1e36cd"/>
+    <listType typeId="a0adc4ab-fead-4d91-844e-2f4e35bb0418" valueTypeId="a542e362-a1f9-4617-bb45-db9a897f519b"/>
+    <managerType typeId="431881f3-31bf-4600-892d-842bdcc49fc5" valueTypeId="5fb7ca35-cd8b-41c8-9b90-0769ec6e6faa"/>
+  </producedTypes>
+  <name>Серии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Серии.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Серии.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Серия</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Серии</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Открытие списка серий</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="09e1ac33-9b28-4f1d-ac04-afb3793314ea">
+    <name>СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок годности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

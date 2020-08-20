@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b316180c-4f56-48ca-8984-6df206d52ce1">
+  <producedTypes>
+    <managerType typeId="d12387c0-ca21-4016-8393-783bd858e3bb" valueTypeId="46c7daa0-2084-47e2-9ca7-67a0aa59fc3a"/>
+    <valueManagerType typeId="35a72a7b-0c74-4a15-bf36-99e019d5a63e" valueTypeId="7637b87b-4f58-492c-9781-ee0701457ee0"/>
+    <valueKeyType typeId="0c22709d-0332-55fb-b009-afbe09778e6e" valueTypeId="81c88ab8-a00c-5668-8f37-719e4033099a"/>
+  </producedTypes>
+  <name>ВалютаХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта холдинга</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

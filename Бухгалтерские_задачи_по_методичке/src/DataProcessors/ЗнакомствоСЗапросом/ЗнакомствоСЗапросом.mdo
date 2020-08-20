@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0980ab8-c3e0-4df0-92ce-908b0f10875c">
+  <producedTypes>
+    <objectType typeId="6cacf6d6-4ff4-42e5-9ec7-52c07d3b25e2" valueTypeId="e87e6f8f-5c9b-4d7b-8225-dce67dd130ab"/>
+    <managerType typeId="67555506-bc99-400c-b255-b42de523b473" valueTypeId="ee448e0b-e918-4e5d-8bc0-42831494e3a9"/>
+  </producedTypes>
+  <name>ЗнакомствоСЗапросом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Знакомство с запросом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗнакомствоСЗапросом.Form.Форма</defaultForm>
+  <attributes uuid="17aa4aa0-5913-43ca-abf8-eec9b8eb1af4">
+    <name>ЗначениеСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ссылка</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65865e74-95e5-44f4-9fd3-48a03167ee89">
+    <name>ЗначениеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3fb6baa2-ed32-4528-b084-13910b3c3ac7">
+    <name>ЗначениеДата1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение дата1</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5a130063-f26c-414d-886d-0a7b4c7c8267">
+    <name>ЗначениеДата2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение дата2</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0f8a122b-2294-456d-ab43-243c69ada080">
+    <name>ЗначениеСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d3edf090-ebc8-4302-8c5c-9c2f5bbe4e7a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e142b80d-6930-4447-968e-153a10e42093">
+    <name>ФормаДляОбычного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма для обычного</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6d4294c1-e7ad-4d5c-a611-8565a11b97f7">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

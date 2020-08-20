@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbb300e7-1777-43a1-931f-4667c9840727">
+  <producedTypes>
+    <objectType typeId="7cb02b1b-6d5b-40b6-8ff2-38dfbcdf71f6" valueTypeId="cebab58a-d413-43f3-b073-97f66ba6b020"/>
+    <refType typeId="9d9c2461-e3cc-4bec-bbd2-b1a22eb62eb0" valueTypeId="6fbf0cf3-f92f-4f40-b230-b92b9f1b3b19"/>
+    <selectionType typeId="349410e4-f494-4c88-8b66-edf8e4ced8a2" valueTypeId="7e173a2e-d5c1-4fbf-a467-89fb937dbe4f"/>
+    <listType typeId="28108970-149d-49ed-be44-ecbc0f55a76b" valueTypeId="28d84b67-f6fd-47f6-b9b7-51e9c7a07e31"/>
+    <managerType typeId="1882dbec-dbeb-49e7-a00b-4ed3905fd076" valueTypeId="db53d38f-4ea1-4e1a-bfcb-d8d915aad4ad"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контактное лицо</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Открытие списка контактных лиц</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="63962812-e55d-430b-a506-37f32bfd636e">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

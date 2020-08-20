@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752fdf46-1d0c-4ad5-9625-51bf75e0dc87">
+  <producedTypes>
+    <objectType typeId="f439b911-7e9d-4fba-ba0a-11fb890a8714" valueTypeId="dbbe400a-f47f-43ca-ba52-2ca0e15ac7a5"/>
+    <refType typeId="abc767ae-4538-406d-8344-3f0e152cd70f" valueTypeId="9f83b518-85ff-4bd2-bf4e-e8a1dbccb402"/>
+    <selectionType typeId="759e6b69-7e40-4497-8969-2ac293c2e151" valueTypeId="f9efb5e7-33f2-4ca2-a5cc-1cc253b61653"/>
+    <listType typeId="99ac06b9-aa70-41c4-a18d-df9e2d9b1fd8" valueTypeId="a960d679-b7e7-4a07-929d-b3ff3cd77414"/>
+    <managerType typeId="689d42a9-b2a0-4fbb-b9fc-1035e22b1feb" valueTypeId="befe18bd-b817-4142-8ae6-719645034cc7"/>
+  </producedTypes>
+  <name>РегламентПереоценкаВалютныхСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламент: переоценка валютных счетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РегламентПереоценкаВалютныхСчетов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccountingRegister.Проводки</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d840ca40-5f06-41a7-ad95-5559a0aac68e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

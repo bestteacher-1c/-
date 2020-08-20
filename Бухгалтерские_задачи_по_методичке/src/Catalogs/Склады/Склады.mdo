@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d07f4323-3dd7-4478-b5d3-b49b08445904">
+  <producedTypes>
+    <objectType typeId="fcd685c5-1c1c-4a99-ac67-fe976defb2c3" valueTypeId="39937083-6b63-4756-9945-72f3688b2903"/>
+    <refType typeId="dac53860-855a-4cc7-a02e-5d93b045434b" valueTypeId="9eadc5d7-99a4-40f3-b97f-c5b0596654af"/>
+    <selectionType typeId="e0b8cb2b-22aa-4f9e-beea-41fe49534e9f" valueTypeId="6f13b23e-70c1-4564-a010-5966ac5c0bbc"/>
+    <listType typeId="b5846c89-77a5-4fa1-9a27-5bddc1d4b787" valueTypeId="bafcb6f2-dcd1-4af3-b60e-36a8b50e56a3"/>
+    <managerType typeId="c158f7cf-b378-4865-a9d3-510143eb7438" valueTypeId="368f08c3-e7b2-4396-8f7b-6056e4f2e54f"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Склады</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Открытие списка складов</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6907cd86-aa6c-4eeb-9ed9-cdec2314f4e9">
+    <name>Розничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розничный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

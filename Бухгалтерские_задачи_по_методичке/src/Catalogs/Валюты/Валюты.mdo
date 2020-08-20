@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c7ae4af-038d-4eb3-afdf-0ceef47af7e2">
+  <producedTypes>
+    <objectType typeId="6921c61d-5867-425f-a4e3-c508e25d399f" valueTypeId="8b253ed2-e9aa-4968-9516-dcecaf44834f"/>
+    <refType typeId="3f7008c3-dbc2-4946-a780-1f1e906620e7" valueTypeId="508f89e5-38b3-40d9-83aa-1f128a9bf801"/>
+    <selectionType typeId="e407503e-5ed0-4d97-891e-4ceea2cdab80" valueTypeId="16369703-63e7-42c1-a2ab-78b09248db03"/>
+    <listType typeId="8544c9bf-d796-4626-8587-a9f53e4699d5" valueTypeId="6aa1438b-108c-46a8-9d28-0529ab2896a3"/>
+    <managerType typeId="d35d0ce3-5db1-4ca0-bd0c-bac05d9b9e3d" valueTypeId="528fee56-4407-495e-9d62-b984904fd23b"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Валюта</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Открытие списка валют</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Валюты.Form.ФормаСписка</defaultListForm>
+  <forms uuid="2a5b6e2e-d2f9-4fd7-8f7f-c449023e4ef3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

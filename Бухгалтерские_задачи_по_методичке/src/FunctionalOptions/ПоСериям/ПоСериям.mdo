@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1633154e-062b-43bd-a2ae-91764ebe7488">
+  <name>ПоСериям</name>
+  <synonym>
+    <key>ru</key>
+    <value>По сериям</value>
+  </synonym>
+  <location>Constant.УчетПоСериям</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Серии</content>
+  <content>Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Серия</content>
+  <content>Document.ПродажаТоваров.TabularSection.Товары.Attribute.Серия</content>
+</mdclass:FunctionalOption>
