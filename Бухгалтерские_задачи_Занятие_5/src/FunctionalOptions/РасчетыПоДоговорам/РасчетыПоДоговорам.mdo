@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Расчеты по договорам</value>
   </synonym>
-  <comment></comment>
   <location>Constant.РасчетыПоДоговорам</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Договоры</content>

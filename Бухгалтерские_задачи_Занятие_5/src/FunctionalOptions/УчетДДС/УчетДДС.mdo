@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Учет ДДС</value>
   </synonym>
-  <comment></comment>
   <location>Constant.УчетДДС</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.ДвиженияДенежныхСредств</content>

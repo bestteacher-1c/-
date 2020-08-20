@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Виды операций продажи товаров</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="55a25896-eb5f-4fe4-8b86-d35b54974109">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Продажа</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="4ec069f9-c381-469c-a3de-3cc77537cb7a">
     <name>ВозвратСХранения</name>
@@ -27,6 +25,5 @@
       <key>ru</key>
       <value>Возврат с хранения</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

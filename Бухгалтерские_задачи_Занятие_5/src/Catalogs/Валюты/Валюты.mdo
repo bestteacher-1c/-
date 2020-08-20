@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Валюты</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>

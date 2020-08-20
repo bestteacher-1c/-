@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>6) Анализ счета по датам</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.АнализСчетаПоДатам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="c9487009-1565-48af-b935-7fbf1c62687f">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

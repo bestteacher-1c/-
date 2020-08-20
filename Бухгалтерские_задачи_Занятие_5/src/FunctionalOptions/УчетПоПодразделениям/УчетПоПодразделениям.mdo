@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Учет по подразделениям</value>
   </synonym>
-  <comment></comment>
   <location>Catalog.Организации.Attribute.УчетПоПодразделениям</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Document.ПриобретениеТоваровИУслуг.Attribute.Подразделение</content>

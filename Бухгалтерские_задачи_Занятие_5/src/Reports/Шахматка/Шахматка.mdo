@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>1) Шахматка</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.Шахматка.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="b6098170-a7ce-4f73-9f69-9c44a1e4d57b">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

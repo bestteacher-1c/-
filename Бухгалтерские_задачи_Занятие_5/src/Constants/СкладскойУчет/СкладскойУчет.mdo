@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="aa98749b-b9fe-4293-9979-9fd817f9ecd8" valueTypeId="7529efe1-8079-4c06-9198-0bb41fdba7f8"/>
     <valueManagerType typeId="5a994e67-97ac-4108-bd4e-7de0df9a7963" valueTypeId="90608089-cbfe-4908-974e-fce2e893ef27"/>
+    <valueKeyType typeId="35443227-65d9-5b1e-9df9-48ebcc14b14a" valueTypeId="c3bc7989-a760-5959-a3a3-c14095cac34d"/>
   </producedTypes>
   <name>СкладскойУчет</name>
   <synonym>
     <key>ru</key>
     <value>Складской учет</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

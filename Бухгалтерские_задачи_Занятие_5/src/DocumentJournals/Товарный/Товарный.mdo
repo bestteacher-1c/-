@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Журнал &quot;Товарные документы&quot;</value>
   </synonym>
-  <comment></comment>
   <defaultForm>DocumentJournal.Товарный.Form.ФормаСписка</defaultForm>
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.ПриобретениеТоваровИУслуг</registeredDocuments>
@@ -22,7 +21,6 @@
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
-    <comment></comment>
     <references>Document.ПриобретениеТоваровИУслуг.Attribute.Контрагент</references>
     <references>Document.РеализацияТоваровИУслуг.Attribute.Контрагент</references>
     <references>Document.ПеремещениеТоваров.Attribute.СкладПолучатель</references>
@@ -33,7 +31,6 @@
       <key>ru</key>
       <value>Склад</value>
     </synonym>
-    <comment></comment>
     <references>Document.ПриобретениеТоваровИУслуг.Attribute.Склад</references>
     <references>Document.РеализацияТоваровИУслуг.Attribute.Склад</references>
     <references>Document.ПеремещениеТоваров.Attribute.СкладОтправитель</references>
@@ -44,7 +41,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

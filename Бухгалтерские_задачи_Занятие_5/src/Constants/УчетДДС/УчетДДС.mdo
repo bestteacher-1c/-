@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="d393ed2c-b356-4856-843d-1d4dd5c416a1" valueTypeId="c872c865-29b4-4268-81f5-0a82e7dd7c82"/>
     <valueManagerType typeId="fa9ffb39-a565-41c6-bd22-43ef93d375f8" valueTypeId="648c5604-0592-4e6e-bc2c-e7f4ad68d4ce"/>
+    <valueKeyType typeId="a0f2a465-7c6b-5d91-9e37-4278fb69609f" valueTypeId="109c43c3-f3e9-5c00-a34a-3fd5ce5721f9"/>
   </producedTypes>
   <name>УчетДДС</name>
   <synonym>
     <key>ru</key>
     <value>Учет ДДС</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

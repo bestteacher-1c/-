@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Бухгалтерия</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
   <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>

@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Ручная операция</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.РучнаяОперация.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -35,7 +34,6 @@
       <key>ru</key>
       <value>Сумма операции</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -43,7 +41,6 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -56,12 +53,10 @@
       <key>ru</key>
       <value>Содержание операции</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -76,7 +71,6 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -86,7 +80,6 @@
       <key>ru</key>
       <value>Вкл./Выкл. активность</value>
     </synonym>
-    <comment></comment>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>DocumentRef.РучнаяОперация</types>

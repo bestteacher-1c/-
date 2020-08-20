@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Движения денежных средств</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ДвиженияДенежныхСредств.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ДвиженияДенежныхСредств.StandardAttribute.Code</inputByString>

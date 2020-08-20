@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Договоры</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
@@ -38,11 +37,9 @@
       <key>ru</key>
       <value>Организация</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Организации</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
