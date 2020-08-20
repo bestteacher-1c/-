@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e9ff93b-576e-427c-a6dc-01e024787c98">
+  <name>БухгалтерскиеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерские задачи по методичке (Финиш методички)</value>
+  </synonym>
+  <comment>Финиш методички</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="11a31fce-9f03-4753-99af-0cd245803cab"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2168aab8-aca0-41d4-a415-37b038d7bc37"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d0bd091c-355f-4266-9ea1-4144104f81d9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1c375ccf-1af7-4bb8-8d07-6a5ac20b57d7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b3601e52-69c8-440d-a279-50c50f2f67d3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="502ea4a4-e714-483b-81fc-fd15fbe62c80"/>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="ecf2e722-9aae-4fb3-ad69-cde551a7a46b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <languages uuid="eadcd02c-33cb-4861-babe-c7a10a607dac">
+    <name>Английский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Английский</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <subsystems>Subsystem.Общее</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <styles>Style.ТакНеНадо</styles>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ОтделПродаж</roles>
+  <roles>Role.ОтделЗакупок</roles>
+  <filterCriteria>FilterCriterion.ОтборПоНоменклатуре</filterCriteria>
+  <commonModules>CommonModule.ОбщийСерверВызов</commonModules>
+  <commonModules>CommonModule.БухгалтерияСервер</commonModules>
+  <commonModules>CommonModule.БухгалтерияСерверПовторно</commonModules>
+  <functionalOptions>FunctionalOption.ПоСкладам</functionalOptions>
+  <functionalOptions>FunctionalOption.ПоСериям</functionalOptions>
+  <commandGroups>CommandGroup.Печать</commandGroups>
+  <constants>Constant.НаименованиеКомпании</constants>
+  <constants>Constant.УчетПоСериям</constants>
+  <constants>Constant.УчетПоСкладам</constants>
+  <constants>Constant.СуммовойУчетПоСкладам</constants>
+  <constants>Constant.ВалютаУчета</constants>
+  <constants>Constant.ВалютаХолдинга</constants>
+  <commonForms>CommonForm.ПараметрыУчета</commonForms>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Серии</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Субконто</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.ПКО</documents>
+  <documents>Document.РКО</documents>
+  <documents>Document.КорректировкаСтоимостиНоменклатуры</documents>
+  <documents>Document.РегламентПереоценкаВалютныхСчетов</documents>
+  <documents>Document.Операция</documents>
+  <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
+  <enums>Enum.ВидыТоваров</enums>
+  <reports>Report.Шахматка</reports>
+  <reports>Report.ОборотноСальдоваяВедомость</reports>
+  <reports>Report.АнализСчета</reports>
+  <reports>Report.ОборотыСчета</reports>
+  <reports>Report.АнализСчетаПоДатам</reports>
+  <reports>Report.ДвижениеТоваров</reports>
+  <reports>Report.РазвернутоеСальдоСчетаСотрудники</reports>
+  <reports>Report.АнализЗадолженности</reports>
+  <reports>Report.ОСВПоВалютам</reports>
+  <reports>Report.КурсовыеРазницы</reports>
+  <dataProcessors>DataProcessor.ЗнакомствоСЗапросом</dataProcessors>
+  <dataProcessors>DataProcessor.ПерепроведениеПоступленийТоваров</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработкаДокументовПродажаТоваров</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Бухгалтерский</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Проводки</accountingRegisters>
+</mdclass:Configuration>

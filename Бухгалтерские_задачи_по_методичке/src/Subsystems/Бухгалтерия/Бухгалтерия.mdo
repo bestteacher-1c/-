@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94555de5-e98f-432e-a3c7-8c613a17c4f3">
+  <name>Бухгалтерия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfAccounts.Бухгалтерский</content>
+  <content>AccountingRegister.Проводки</content>
+  <content>Document.ПродажаТоваров</content>
+  <content>Document.ПоступлениеТоваров</content>
+  <content>Report.Шахматка</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>Report.АнализСчета</content>
+  <content>Report.ОборотыСчета</content>
+  <content>Report.АнализСчетаПоДатам</content>
+  <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
+  <content>Catalog.Субконто</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>Document.ПКО</content>
+  <content>Document.РКО</content>
+  <content>Report.ДвижениеТоваров</content>
+  <content>Report.РазвернутоеСальдоСчетаСотрудники</content>
+  <content>Catalog.Договоры</content>
+  <content>Report.АнализЗадолженности</content>
+  <content>Document.КорректировкаСтоимостиНоменклатуры</content>
+  <content>Report.ОСВПоВалютам</content>
+  <content>Report.КурсовыеРазницы</content>
+  <content>Document.РегламентПереоценкаВалютныхСчетов</content>
+  <content>Document.Операция</content>
+  <content>DataProcessor.ОбработкаДокументовПродажаТоваров</content>
+  <content>Constant.ВалютаХолдинга</content>
+  <content>Constant.ВалютаУчета</content>
+</mdclass:Subsystem>

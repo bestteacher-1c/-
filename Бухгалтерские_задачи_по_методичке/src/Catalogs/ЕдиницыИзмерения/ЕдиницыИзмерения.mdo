@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4233f67-b967-4e52-9ed4-c4156ac23e27">
+  <producedTypes>
+    <objectType typeId="a8984b1d-dae4-48a9-8a1e-3d1f504eaaba" valueTypeId="394acd3d-c29b-40a7-9b44-05ac842b701f"/>
+    <refType typeId="c59b2031-2e76-4ac6-9092-588d941ab296" valueTypeId="2cecc07c-d962-4bd0-8a89-1696356e6464"/>
+    <selectionType typeId="6a748063-e9a4-4d46-bea9-4aac6f377587" valueTypeId="d1c96cd1-4076-4a8a-851f-52cc637d660f"/>
+    <listType typeId="3d9c84c3-62fd-4b5e-96e6-1bb780e1adcb" valueTypeId="66b1d935-01b9-43a4-b7b5-f5ab51f1ec1a"/>
+    <managerType typeId="4da90fbc-6071-487c-a467-47b6afb9ca6d" valueTypeId="8f93ecea-7b74-4aeb-b40d-cf3660a491ec"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Открытие списка единиц измерения</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c9d936e-ea4b-4680-bf60-38c0c9d19c12">
+  <producedTypes>
+    <objectType typeId="26343783-ab86-4561-8ee3-e96700668b16" valueTypeId="6e9978fb-a4b7-40bb-bf4e-b3b3871a6531"/>
+    <refType typeId="88eb24da-c727-4212-b509-276b9332a563" valueTypeId="385746b2-1019-4fea-ba0b-d47612a5d43d"/>
+    <selectionType typeId="7caf48f6-3a7b-4943-b88a-a5e0a30143fc" valueTypeId="50bf9450-aff3-4a84-bdf4-608bbca59f62"/>
+    <listType typeId="abfc67b5-b21a-45bb-bbae-8a6830db42db" valueTypeId="48598ba8-a71d-4a4b-a1ab-9a2cd3c8066f"/>
+    <managerType typeId="7f0a551c-fcdd-45ae-8c60-028c87c5aa72" valueTypeId="983976d3-1b81-4be0-91d4-9c665fb6829b"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3f3a7dbf-b397-4bcc-ba8f-9c46d901db53">
+      <name>Бухгалтер</name>
+      <description>Бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="a844a24d-0de0-4ee1-92c5-9353150cbce4">
+      <name>ГлавныйБухгалтер</name>
+      <description>Главный бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="97493b9f-3f8f-41d1-9d7f-ac61295886fc">
+      <name>Кассир</name>
+      <description>Кассир</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

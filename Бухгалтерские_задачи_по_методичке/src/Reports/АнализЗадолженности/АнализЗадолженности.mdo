@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="040b99a8-c1d1-4c24-aff0-25a77851a11c">
+  <producedTypes>
+    <objectType typeId="fa194d7c-9f75-4d0f-b659-599ebe67743f" valueTypeId="d7a370c8-f647-4a8c-97f7-2b557aa9fc1d"/>
+    <managerType typeId="fa7af900-7cc4-4b24-86d1-4c31f89773ad" valueTypeId="61812c0f-0d50-478f-aed4-0302a21229ef"/>
+  </producedTypes>
+  <name>АнализЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ задолженности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализЗадолженности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="79efbfb7-04d7-4811-9b3f-fbdcfee9f2cf">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

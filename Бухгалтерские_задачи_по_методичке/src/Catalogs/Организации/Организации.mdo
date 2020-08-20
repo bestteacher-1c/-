@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="854b7026-fd2c-433e-824e-724fb76f5dee">
+  <producedTypes>
+    <objectType typeId="13db154a-ee30-4d5f-aeb8-15bf1d7fb1d3" valueTypeId="6887e657-a59d-40d1-b22f-f057afc3561c"/>
+    <refType typeId="113427a3-7592-40e0-9e18-e7e35304d637" valueTypeId="1af1cde1-25cb-45f8-94ab-6d01f9ed5231"/>
+    <selectionType typeId="a49e17ce-36e8-4688-a59c-52a7f665267b" valueTypeId="863f7731-d2d4-4627-b8de-bc53ce5d10c0"/>
+    <listType typeId="01a7d6d1-afc2-4827-ac7c-f628e3941c45" valueTypeId="9062ec34-5c20-440d-b8fd-e3b9d55eed75"/>
+    <managerType typeId="bfa33832-d27e-4e58-9116-e4c5a16d61f7" valueTypeId="5a144d3f-7462-4528-979e-35512be66119"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Организация</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2d345e28-fafc-4c4c-a7b3-8b475e617d40">
+      <name>ОсновнаяОрганизация</name>
+      <description>Основная организация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

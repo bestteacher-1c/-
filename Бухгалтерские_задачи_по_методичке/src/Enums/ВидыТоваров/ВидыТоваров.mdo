@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="550f3e49-04ca-436b-9489-e774329b7a44">
+  <producedTypes>
+    <refType typeId="550259d2-c166-4307-9ccf-d8bf62abe762" valueTypeId="6c8fda8e-bc49-4c4f-baab-4c51dc5e8c14"/>
+    <listType typeId="96b24577-3746-4182-be4a-b2ac5347bf7d" valueTypeId="55078fb6-5d48-42ec-896d-820614808d74"/>
+    <managerType typeId="85d55eef-f59d-4043-b3dc-929e08fb5441" valueTypeId="1829dac2-f5b6-4b25-8ea9-e5c3746c3840"/>
+  </producedTypes>
+  <name>ВидыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="308bce00-e10f-4fec-84f9-bea3aba4203d">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa4db3ec-f34f-4fae-abcd-8aee13b1d2dc">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d4d4353-3a5d-49f0-845d-57e1717916c2">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

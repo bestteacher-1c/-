@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55854656-cd8b-4ea2-afc2-46067ae51e37">
+  <producedTypes>
+    <objectType typeId="5e586fdf-1518-4eeb-8a98-53868517aad1" valueTypeId="0abbd4f4-f0b5-46b8-b63d-5615c6bb1fb0"/>
+    <managerType typeId="e941cae9-8a67-46f5-9c14-ef314f308b58" valueTypeId="d5dfe566-99ad-4842-8c8e-467a79a120cc"/>
+  </producedTypes>
+  <name>ОборотыСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>4) Обороты счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОборотыСчета.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7452cfe6-5aa1-40df-8ad9-1f2bc1a8e04b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
