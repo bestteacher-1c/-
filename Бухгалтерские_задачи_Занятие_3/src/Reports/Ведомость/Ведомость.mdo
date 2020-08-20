@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>5) Ведомость</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.Ведомость.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="d1fa43a1-a01b-41ba-b5e8-1cc2805c68b0">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

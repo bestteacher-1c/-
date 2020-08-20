@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Курсы валют</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
@@ -26,7 +25,6 @@
       <key>ru</key>
       <value>Курс</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -35,7 +33,6 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -48,11 +45,9 @@
       <key>ru</key>
       <value>Валюта</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Валюты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="753d76d4-433b-4495-b16b-c7f4443d6c80">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="753d76d4-433b-4495-b16b-c7f4443d6c80">
   <producedTypes>
     <objectType typeId="8ae63312-211a-4196-9084-87f731067af3" valueTypeId="00f66620-8d74-44d2-b7bd-2c3af5707012"/>
     <refType typeId="f265a7c3-694e-405f-8a70-4c8188e6a274" valueTypeId="4af601be-6286-41cf-9851-9d34daed2124"/>
@@ -40,6 +40,9 @@
     <type>
       <types>ChartOfAccountsRef.Счета</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

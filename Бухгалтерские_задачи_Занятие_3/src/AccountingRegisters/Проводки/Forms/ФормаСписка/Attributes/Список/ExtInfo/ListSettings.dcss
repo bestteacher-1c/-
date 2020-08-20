@@ -55,10 +55,6 @@
 			<filter/>
 			<appearance>
 				<dcscor:item xsi:type="SettingsParameterValue">
-					<dcscor:parameter>BackColor</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:Color">#CCFFFF</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ЦветФона</dcscor:parameter>
 					<dcscor:value xsi:type="v8ui:Color">#CCFFFF</dcscor:value>
@@ -95,10 +91,6 @@
 			</selection>
 			<filter/>
 			<appearance>
-				<dcscor:item xsi:type="SettingsParameterValue">
-					<dcscor:parameter>BackColor</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:Color">#FF99CC</dcscor:value>
-				</dcscor:item>
 				<dcscor:item xsi:type="SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ЦветФона</dcscor:parameter>

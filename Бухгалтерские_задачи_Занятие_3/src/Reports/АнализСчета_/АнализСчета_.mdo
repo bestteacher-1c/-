@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Анализ счета (по оборотам Дт Кт)</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.АнализСчета_.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="4aabdc5c-116f-49b0-ae9a-d7fb89fa49d3">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

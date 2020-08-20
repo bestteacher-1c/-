@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Прочее</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыНоменклатуры</content>

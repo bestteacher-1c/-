@@ -32,20 +32,12 @@
       </visible>
     </visibilityFragments>
   </commandsVisibility>
-  <commandsPlacement>
-    <placementFragments>
-      <group>NavigationPanelSeeAlso</group>
-    </placementFragments>
-  </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.Валюты.StandardCommand.OpenList</commands>
       <commands>Catalog.Склады.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -5,13 +5,12 @@
     <key>ru</key>
     <value>Организация</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>CatalogRef.Организации</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
+  <fillValue xsi:type="core:UndefinedValue"/>
   <content>
     <metadata>DocumentJournal.Товарный</metadata>
     <use>Use</use>
@@ -37,11 +36,11 @@
     <use>Use</use>
   </content>
   <content>
-    <metadata>Document.ПриобретениеТоваровИУслуг</metadata>
+    <metadata>Document.РучнаяОперация</metadata>
     <use>Use</use>
   </content>
   <content>
-    <metadata>Document.РучнаяОперация</metadata>
+    <metadata>Document.ПриобретениеТоваровИУслуг</metadata>
     <use>Use</use>
   </content>
   <autoUse>DontUse</autoUse>
