@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfbd1855-37c3-4527-b518-233c9ada1220">
+  <producedTypes>
+    <refType typeId="32ca0f99-179a-46c8-af09-5741c8ca2d7c" valueTypeId="83e6081c-80fb-452c-9c4b-23c31721101b"/>
+    <listType typeId="968285af-4586-4d52-bb79-5c48ad2b96c4" valueTypeId="27122098-0a2c-42f0-bd8d-ca06cef51a6f"/>
+    <managerType typeId="d3fca766-9194-4b5b-89fe-7969df1517d1" valueTypeId="57f4b800-cc1c-4fb0-8caf-ee3d9c910220"/>
+  </producedTypes>
+  <name>ВидыОперацийПродажиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций продажи товаров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="55a25896-eb5f-4fe4-8b86-d35b54974109">
+    <name>Продажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ec069f9-c381-469c-a3de-3cc77537cb7a">
+    <name>ВозвратСХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат с хранения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
