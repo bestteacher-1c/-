@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="ee1e3eda-f0ce-4890-88d4-39a49fc90ca6" valueTypeId="304e98bb-ab91-49f3-98c0-b480c37c2d6c"/>
     <valueManagerType typeId="ec4f4c7d-095b-4752-9b7b-a43639f713ac" valueTypeId="b564f8b6-f3fa-4c52-af9d-caecbb6b6748"/>
+    <valueKeyType typeId="e9528c33-708f-5836-8d67-f1d3a6191c8a" valueTypeId="d83ad7fb-29cd-570b-a3c7-efeb8e32f4d2"/>
   </producedTypes>
   <name>ПервыйЗапуск</name>
   <synonym>
     <key>ru</key>
     <value>Первый запуск</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

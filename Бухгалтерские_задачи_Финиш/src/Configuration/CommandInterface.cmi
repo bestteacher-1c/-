@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Бухгалтерия</subsystems>
+    <subsystems>ce818266-ab12-486e-a90f-fb73de9c637c</subsystems>
+    <subsystems>c181d74e-56ae-4b18-8c5d-95dfc512c7e2</subsystems>
+    <subsystems>106df509-7bc0-4b7b-9d88-586f8c2eeff9</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

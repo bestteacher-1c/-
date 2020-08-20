@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Дополнительные значения</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ДополнительныеЗначения.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ДополнительныеЗначения.StandardAttribute.Code</inputByString>

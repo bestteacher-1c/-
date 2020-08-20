@@ -12,58 +12,47 @@
     <key>ru</key>
     <value>Реализация товаров и услуг</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.РеализацияТоваровИУслуг.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Posted</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -90,11 +79,9 @@
       <key>ru</key>
       <value>Подразделение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Подразделения</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -112,11 +99,9 @@
       <key>ru</key>
       <value>Склад</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Склады</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -129,11 +114,9 @@
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -146,11 +129,9 @@
       <key>ru</key>
       <value>Договор</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Договоры</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
@@ -171,11 +152,9 @@
       <key>ru</key>
       <value>Валюта</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Валюты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
@@ -190,11 +169,9 @@
       <key>ru</key>
       <value>Вид операции</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.ВидыОперацийПродажиТоваров</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
@@ -209,7 +186,6 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -223,15 +199,12 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
-    <comment></comment>
     <fillChecking>ShowError</fillChecking>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -241,11 +214,9 @@
         <key>ru</key>
         <value>Номенклатура</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Номенклатура</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
@@ -258,11 +229,9 @@
         <key>ru</key>
         <value>Количество</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>DefinedType.Количество</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
@@ -275,7 +244,6 @@
         <key>ru</key>
         <value>Цена</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -284,7 +252,6 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
@@ -297,11 +264,9 @@
         <key>ru</key>
         <value>Сумма</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>DefinedType.ДенежнаяСумма</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>

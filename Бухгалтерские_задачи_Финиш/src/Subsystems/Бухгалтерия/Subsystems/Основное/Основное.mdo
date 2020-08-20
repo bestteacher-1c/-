@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7514de37-5b3b-4c27-8bae-06e80caa31a4">
+  <name>Основное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основное</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.Счета</content>
+  <content>InformationRegister.СчетаУчетаНоменклатуры</content>
+  <content>AccountingRegister.Проводки</content>
+  <content>Document.РучнаяОперация</content>
+  <content>Document.КурсоваяРазница</content>
+  <parentSubsystem>Subsystem.Бухгалтерия</parentSubsystem>
+</mdclass:Subsystem>

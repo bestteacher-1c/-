@@ -855,11 +855,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Запросы.StandardCommand.MoveUp</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ЗапросыПереместитьВниз</name>
@@ -886,11 +886,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Запросы.StandardCommand.MoveDown</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ЗапросыВставить_</name>
@@ -947,11 +947,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Запросы.StandardCommand.Copy</commandName>
         <representation>PictureAndText</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ЗапросыИзменить</name>
@@ -978,11 +978,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Запросы.StandardCommand.Change</commandName>
         <representation>PictureAndText</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1058,11 +1058,11 @@
       </extendedTooltip>
       <commandName>Form.Command.СравнитьРезультатыЗапросов</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>

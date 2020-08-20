@@ -12,58 +12,47 @@
     <key>ru</key>
     <value>Перемещение товаров (ТМЦ)</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПеремещениеТоваров.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Posted</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -89,11 +78,9 @@
       <key>ru</key>
       <value>Подразделение отправитель</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Подразделения</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
@@ -110,11 +97,9 @@
       <key>ru</key>
       <value>Подразделение получатель</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Подразделения</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
@@ -131,11 +116,9 @@
       <key>ru</key>
       <value>Склад отправитель</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Склады</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -148,11 +131,9 @@
       <key>ru</key>
       <value>Склад получатель</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Склады</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -165,7 +146,6 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -179,14 +159,11 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
-    <comment></comment>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -196,11 +173,9 @@
         <key>ru</key>
         <value>Номенклатура</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Номенклатура</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -212,11 +187,9 @@
         <key>ru</key>
         <value>Количество</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>DefinedType.Количество</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>

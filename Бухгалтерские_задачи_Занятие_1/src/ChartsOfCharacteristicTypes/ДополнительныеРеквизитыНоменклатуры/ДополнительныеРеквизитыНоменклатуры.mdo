@@ -13,7 +13,6 @@
     <key>ru</key>
     <value>Дополнительные реквизиты номенклатуры</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ChartOfCharacteristicTypes.ДополнительныеРеквизитыНоменклатуры.StandardAttribute.Description</inputByString>
   <inputByString>ChartOfCharacteristicTypes.ДополнительныеРеквизитыНоменклатуры.StandardAttribute.Code</inputByString>

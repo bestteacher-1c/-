@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Счета учета номенклатуры</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -24,11 +23,9 @@
       <key>ru</key>
       <value>Счет учета</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>ChartOfAccountsRef.Счета</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -41,11 +38,9 @@
       <key>ru</key>
       <value>Организация</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Организации</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -64,8 +59,11 @@
     <type>
       <types>CatalogRef.Номенклатура</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>

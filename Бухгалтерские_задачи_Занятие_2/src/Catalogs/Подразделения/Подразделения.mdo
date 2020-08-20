@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Подразделения</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>

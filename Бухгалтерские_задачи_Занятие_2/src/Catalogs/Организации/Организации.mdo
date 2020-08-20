@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Организации</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
@@ -38,11 +37,9 @@
       <key>ru</key>
       <value>Учет по подразделениям</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -55,7 +52,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

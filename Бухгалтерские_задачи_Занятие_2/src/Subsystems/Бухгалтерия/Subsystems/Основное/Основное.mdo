@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Основное</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>ChartOfAccounts.Счета</content>

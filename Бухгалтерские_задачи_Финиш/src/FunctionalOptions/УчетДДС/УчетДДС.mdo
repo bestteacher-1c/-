@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd62dbae-a887-442d-8792-b778c701e006">
+  <name>УчетДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет ДДС</value>
+  </synonym>
+  <location>Constant.УчетДДС</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ДвиженияДенежныхСредств</content>
+  <content>Document.ПолучениеДенежныхСредств.Attribute.ДвижениеДенежныхСредств</content>
+  <content>Document.ВыплатыДенежныхСредств.Attribute.ДвижениеДенежныхСредств</content>
+</mdclass:FunctionalOption>

@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Журнал &quot;Денежные средства&quot;</value>
   </synonym>
-  <comment></comment>
   <defaultForm>DocumentJournal.ДенежныеСредства.Form.ФормаСписка</defaultForm>
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.ПолучениеДенежныхСредств</registeredDocuments>
@@ -21,7 +20,6 @@
       <key>ru</key>
       <value>Сумма</value>
     </synonym>
-    <comment></comment>
     <references>Document.ВыплатыДенежныхСредств.Attribute.Сумма</references>
     <references>Document.ПолучениеДенежныхСредств.Attribute.Сумма</references>
   </columns>
@@ -31,7 +29,6 @@
       <key>ru</key>
       <value>Валюта</value>
     </synonym>
-    <comment></comment>
     <references>Document.ПолучениеДенежныхСредств.Attribute.Валюта</references>
     <references>Document.ВыплатыДенежныхСредств.Attribute.Валюта</references>
   </columns>
@@ -41,7 +38,6 @@
       <key>ru</key>
       <value>Бухгалтерский счет</value>
     </synonym>
-    <comment></comment>
     <references>Document.ПолучениеДенежныхСредств.Attribute.КорСчет</references>
     <references>Document.ВыплатыДенежныхСредств.Attribute.КорСчет</references>
   </columns>
@@ -60,7 +56,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

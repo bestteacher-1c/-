@@ -5,11 +5,9 @@
     <key>ru</key>
     <value>Организация</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>CatalogRef.Организации</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <fillValue xsi:type="core:UndefinedValue"/>

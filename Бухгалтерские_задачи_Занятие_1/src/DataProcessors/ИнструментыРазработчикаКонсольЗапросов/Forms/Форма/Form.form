@@ -2240,7 +2240,6 @@
       </extendedTooltip>
       <commandName>Form.Command.НастроитьДополнительно</commandName>
       <representation>PictureAndText</representation>
-      <onlyInAllActions>false</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -2250,6 +2249,7 @@
         <blue>255</blue>
       </backColor>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ФормаВыполнитьВыборРезультатаЗапроса</name>
@@ -2280,7 +2280,6 @@
       </extendedTooltip>
       <commandName>Form.Command.ВыполнитьВыборРезультатаЗапроса</commandName>
       <representation>PictureAndText</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -2288,6 +2287,7 @@
         <picture>StdPicture.ChooseValue</picture>
       </picture>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
