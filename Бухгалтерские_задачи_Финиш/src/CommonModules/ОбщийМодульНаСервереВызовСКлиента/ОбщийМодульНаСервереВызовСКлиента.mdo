@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10568633-1097-4694-b116-6a0d9f035060">
-  <name>БухгалтерияВызовСервера</name>
+  <name>ОбщийМодульНаСервереВызовСКлиента</name>
   <synonym>
     <key>ru</key>
-    <value>Бухгалтерия вызов сервера</value>
+    <value>Общий модуль на сервере вызов с клиента</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

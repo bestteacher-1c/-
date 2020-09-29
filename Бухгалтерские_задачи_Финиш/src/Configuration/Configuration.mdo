@@ -50,8 +50,8 @@
   <commonPictures>CommonPicture.Документы</commonPictures>
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
   <commonModules>CommonModule.Сервис</commonModules>
-  <commonModules>CommonModule.Бухгалтерия</commonModules>
-  <commonModules>CommonModule.БухгалтерияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
+  <commonModules>CommonModule.ОбщийМодульНаСервереВызовСКлиента</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <eventSubscriptions>EventSubscription.ПроверкаЗаполненияПодразделения</eventSubscriptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
