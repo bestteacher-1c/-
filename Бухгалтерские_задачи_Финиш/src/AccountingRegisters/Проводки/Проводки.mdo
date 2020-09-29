@@ -126,10 +126,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>AccountingRegister.Проводки.Dimension.Организация</field>
-    </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlag>
   </dimensions>
