@@ -211,8 +211,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
-    </extInfo>
+      <currentRowUse>Auto</currentRowUse>R    </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
     <name>РеквизитыШапки</name>
@@ -514,8 +513,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
-      </extInfo>
+        <currentRowUse>Auto</currentRowUse>R      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>Валюта</name>
@@ -604,8 +602,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
-    </extInfo>
+      <currentRowUse>Auto</currentRowUse>R    </extInfo>
   </items>
   <items xsi:type="form:Table">
     <name>Товары</name>

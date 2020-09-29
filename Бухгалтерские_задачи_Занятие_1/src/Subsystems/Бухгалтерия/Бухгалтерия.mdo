@@ -10,7 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Бухгалтерия</picture>
   </picture>
-  <content>DataProcessor.КонсольЗапросов</content>
   <content>Constant.СкладскойУчет</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>

@@ -35,8 +35,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
-    </extInfo>
+      <currentRowUse>Auto</currentRowUse>R    </extInfo>
   </items>
   <items xsi:type="form:Table">
     <name>Список</name>
@@ -812,8 +811,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
-        </extInfo>
+          <currentRowUse>Auto</currentRowUse>R        </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
         <name>Группа8</name>
@@ -939,8 +937,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
-        </extInfo>
+          <currentRowUse>Auto</currentRowUse>R        </extInfo>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -974,8 +971,7 @@
         <united>true</united>
         <showTitle>true</showTitle>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
-      </extInfo>
+        <currentRowUse>Auto</currentRowUse>R      </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>Группа5</name>
@@ -1108,8 +1104,7 @@
         <united>true</united>
         <showTitle>true</showTitle>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
-      </extInfo>
+        <currentRowUse>Auto</currentRowUse>R      </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>Группа9</name>
@@ -1214,8 +1209,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
-      </extInfo>
+        <currentRowUse>Auto</currentRowUse>R      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1242,8 +1236,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
-    </extInfo>
+      <currentRowUse>Auto</currentRowUse>R    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>

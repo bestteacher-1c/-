@@ -150,8 +150,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
-        </extInfo>
+          <currentRowUse>Auto</currentRowUse>R        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>Организация</name>
@@ -291,8 +290,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
-      </extInfo>
+        <currentRowUse>Auto</currentRowUse>R      </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаПраваяКолонка</name>
@@ -487,8 +485,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
-      </extInfo>
+        <currentRowUse>Auto</currentRowUse>R      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -523,8 +520,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
-    </extInfo>
+      <currentRowUse>Auto</currentRowUse>R    </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
     <name>Страницы</name>
@@ -1547,8 +1543,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
-    </extInfo>
+      <currentRowUse>Auto</currentRowUse>R    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>

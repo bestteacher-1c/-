@@ -150,8 +150,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
-        </extInfo>
+          <currentRowUse>Auto</currentRowUse>R        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>Организация</name>
@@ -347,8 +346,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
-      </extInfo>
+        <currentRowUse>Auto</currentRowUse>R      </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаПраваяКолонка</name>
@@ -575,8 +573,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
-      </extInfo>
+        <currentRowUse>Auto</currentRowUse>R      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -611,8 +608,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
-    </extInfo>
+      <currentRowUse>Auto</currentRowUse>R    </extInfo>
   </items>
   <items xsi:type="form:Table">
     <name>Товары</name>

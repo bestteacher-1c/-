@@ -73,7 +73,6 @@
   <documentJournals>DocumentJournal.Товарный</documentJournals>
   <documentJournals>DocumentJournal.ДенежныеСредства</documentJournals>
   <enums>Enum.ВидыОперацийПродажиТоваров</enums>
-  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыНоменклатуры</chartsOfCharacteristicTypes>
