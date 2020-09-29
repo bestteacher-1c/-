@@ -12,5 +12,5 @@
     <types>DocumentObject.РеализацияТоваровИУслуг</types>
   </source>
   <event>FillCheckProcessing</event>
-  <handler>CommonModule.Бухгалтерия.ПроверкаЗаполненияПодразделенияОбработкаПроверкиЗаполнения</handler>
+  <handler>CommonModule.ОбщийМодульНаСервере.ПроверкаЗаполненияПодразделенияОбработкаПроверкиЗаполнения</handler>
 </mdclass:EventSubscription>
